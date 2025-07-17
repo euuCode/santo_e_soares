@@ -58,34 +58,27 @@ export function Header() {
         {isMenuOpen && (
           <nav className="lg:hidden py-4 border-t border-gray-200">
             <div className="flex flex-col space-y-4">
-              <a
-                href="#inicio"
+              <Link
+                to="/inicio"
                 className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Início
-              </a>
-              <a
-                href="#sobre"
+              </Link>
+              <Link
+                to="/sobre"
                 className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Sobre Nós
-              </a>
-              <a
-                href="#contrate-nos"
+              </Link>
+              <Link
+                to="/contrate-nos"
                 className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contrate-nos
-              </a>
-              <a
-                href="#contato"
-                className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Contato
-              </a>
+              </Link>
             </div>
           </nav>
         )}
