@@ -22,7 +22,7 @@ export function BankingInfo() {
             Problemas Bancários Que Resolvemos
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-red-500">
               <div className="flex items-center mb-4">
                 <AlertTriangle className="text-red-500 mr-3" size={24} />
@@ -70,6 +70,69 @@ export function BankingInfo() {
               <p className="text-gray-600 text-sm">
                 Análise completa de contratos bancários identificando cláusulas
                 abusivas e irregularidades contratuais.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-purple-500">
+              <div className="flex items-center mb-4">
+                <AlertTriangle className="text-purple-500 mr-3" size={24} />
+                <h4 className="font-semibold text-gray-800">
+                  Empréstimo Consignado
+                </h4>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Cancelamento de empréstimos não solicitados, revisão de taxas
+                abusivas e recuperação de valores descontados indevidamente.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-pink-500">
+              <div className="flex items-center mb-4">
+                <DollarSign className="text-pink-500 mr-3" size={24} />
+                <h4 className="font-semibold text-gray-800">
+                  Cartão de Crédito
+                </h4>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Contestação de anuidades indevidas, seguros não contratados,
+                saques não realizados e compras não reconhecidas.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-indigo-500">
+              <div className="flex items-center mb-4">
+                <FileText className="text-indigo-500 mr-3" size={24} />
+                <h4 className="font-semibold text-gray-800">
+                  Financiamento Veicular
+                </h4>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Revisão de contratos de financiamento, contestação de seguros
+                obrigatórios e taxas abusivas em financiamentos.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-teal-500">
+              <div className="flex items-center mb-4">
+                <CheckCircle className="text-teal-500 mr-3" size={24} />
+                <h4 className="font-semibold text-gray-800">Conta Corrente</h4>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Contestação de tarifas de manutenção abusivas, pacote de
+                serviços não solicitados e taxas de cheque especial.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-yellow-500">
+              <div className="flex items-center mb-4">
+                <AlertTriangle className="text-yellow-600 mr-3" size={24} />
+                <h4 className="font-semibold text-gray-800">
+                  Crédito Consignado
+                </h4>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Reversão de descontos não autorizados, renegociação de contratos
+                prejudiciais e cancelamento de operações fraudulentas.
               </p>
             </div>
           </div>
