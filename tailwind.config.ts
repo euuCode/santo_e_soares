@@ -23,6 +23,20 @@ export default {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
+        lawfirm: {
+          green: {
+            50: "hsl(var(--lawfirm-green-50))",
+            100: "hsl(var(--lawfirm-green-100))",
+            200: "hsl(var(--lawfirm-green-200))",
+            300: "hsl(var(--lawfirm-green-300))",
+            400: "hsl(var(--lawfirm-green-400))",
+            500: "hsl(var(--lawfirm-green-500))",
+            600: "hsl(var(--lawfirm-green-600))",
+            700: "hsl(var(--lawfirm-green-700))",
+            800: "hsl(var(--lawfirm-green-800))",
+            900: "hsl(var(--lawfirm-green-900))",
+          },
+        },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
