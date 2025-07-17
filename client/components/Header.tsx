@@ -10,14 +10,17 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
+          <Link
+            to="/"
+            className="flex items-center space-x-3 bg-lawfirm-dark-700 px-4 py-3 rounded-lg hover:bg-lawfirm-dark-600 transition-colors"
+          >
             <img
               src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=120,fit=crop,q=95/A1aPOyMlXXIPRlbw/bc7c8a94-66c3-4dff-9fb5-a469f0a8bbe3-Aq2JoPeqb7IMXQ70.png"
               alt="Santo e Soares Advocacia"
               className="h-12 w-12 object-contain"
             />
             <div>
-              <h1 className="text-2xl font-bold text-lawfirm-gold-600">
+              <h1 className="text-2xl font-bold text-lawfirm-gold-400">
                 Santo e Soares Advocacia
               </h1>
             </div>
@@ -27,19 +30,19 @@ export function Header() {
           <nav className="hidden lg:flex items-center space-x-8">
             <Link
               to="/inicio"
-              className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
+              className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors px-3 py-2 rounded-md hover:bg-lawfirm-dark-700"
             >
               Início
             </Link>
             <Link
               to="/sobre"
-              className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
+              className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors px-3 py-2 rounded-md hover:bg-lawfirm-dark-700"
             >
               Sobre Nós
             </Link>
             <Link
               to="/contrate-nos"
-              className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
+              className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors px-3 py-2 rounded-md hover:bg-lawfirm-dark-700"
             >
               Contrate-nos
             </Link>
@@ -56,25 +59,25 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="lg:hidden py-4 border-t border-gray-200">
+          <nav className="lg:hidden py-4 border-t border-lawfirm-dark-700">
             <div className="flex flex-col space-y-4">
               <Link
                 to="/inicio"
-                className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors py-2"
+                className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors py-3 px-3 rounded-md hover:bg-lawfirm-dark-700 block"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Início
               </Link>
               <Link
                 to="/sobre"
-                className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors py-2"
+                className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors py-3 px-3 rounded-md hover:bg-lawfirm-dark-700 block"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Sobre Nós
               </Link>
               <Link
                 to="/contrate-nos"
-                className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors py-2"
+                className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors py-3 px-3 rounded-md hover:bg-lawfirm-dark-700 block"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contrate-nos
