@@ -19,8 +19,8 @@ export function About() {
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
-            <div className="bg-lawfirm-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Scale className="text-lawfirm-green-600" size={32} />
+            <div className="bg-lawfirm-gold-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Scale className="text-lawfirm-gold-600" size={32} />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Experiência Comprovada
@@ -31,8 +31,8 @@ export function About() {
           </div>
 
           <div className="text-center">
-            <div className="bg-lawfirm-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Shield className="text-lawfirm-green-600" size={32} />
+            <div className="bg-lawfirm-gold-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Shield className="text-lawfirm-gold-600" size={32} />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Proteção Total
@@ -43,8 +43,8 @@ export function About() {
           </div>
 
           <div className="text-center">
-            <div className="bg-lawfirm-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Users className="text-lawfirm-green-600" size={32} />
+            <div className="bg-lawfirm-gold-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Users className="text-lawfirm-gold-600" size={32} />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Atendimento Personalizado
@@ -55,8 +55,8 @@ export function About() {
           </div>
 
           <div className="text-center">
-            <div className="bg-lawfirm-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Award className="text-lawfirm-green-600" size={32} />
+            <div className="bg-lawfirm-gold-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Award className="text-lawfirm-gold-600" size={32} />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Resultados Eficazes
@@ -74,33 +74,33 @@ export function About() {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex items-start space-x-3">
-              <div className="w-2 h-2 bg-lawfirm-green-600 rounded-full mt-2"></div>
+              <div className="w-2 h-2 bg-lawfirm-gold-600 rounded-full mt-2"></div>
               <span className="text-gray-700">
                 Revisão de contratos bancários
               </span>
             </div>
             <div className="flex items-start space-x-3">
-              <div className="w-2 h-2 bg-lawfirm-green-600 rounded-full mt-2"></div>
+              <div className="w-2 h-2 bg-lawfirm-gold-600 rounded-full mt-2"></div>
               <span className="text-gray-700">
                 Negativação indevida (SPC/Serasa)
               </span>
             </div>
             <div className="flex items-start space-x-3">
-              <div className="w-2 h-2 bg-lawfirm-green-600 rounded-full mt-2"></div>
+              <div className="w-2 h-2 bg-lawfirm-gold-600 rounded-full mt-2"></div>
               <span className="text-gray-700">Tarifas abusivas bancárias</span>
             </div>
             <div className="flex items-start space-x-3">
-              <div className="w-2 h-2 bg-lawfirm-green-600 rounded-full mt-2"></div>
+              <div className="w-2 h-2 bg-lawfirm-gold-600 rounded-full mt-2"></div>
               <span className="text-gray-700">
                 Empréstimos consignados indevidos
               </span>
             </div>
             <div className="flex items-start space-x-3">
-              <div className="w-2 h-2 bg-lawfirm-green-600 rounded-full mt-2"></div>
+              <div className="w-2 h-2 bg-lawfirm-gold-600 rounded-full mt-2"></div>
               <span className="text-gray-700">Juros abusivos e anatocismo</span>
             </div>
             <div className="flex items-start space-x-3">
-              <div className="w-2 h-2 bg-lawfirm-green-600 rounded-full mt-2"></div>
+              <div className="w-2 h-2 bg-lawfirm-gold-600 rounded-full mt-2"></div>
               <span className="text-gray-700">
                 Cartão de crédito - cobrança indevida
               </span>
