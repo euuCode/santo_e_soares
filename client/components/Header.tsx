@@ -25,30 +25,24 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
-            <a
-              href="#inicio"
+            <Link
+              to="/inicio"
               className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
             >
               Início
-            </a>
-            <a
-              href="#sobre"
+            </Link>
+            <Link
+              to="/sobre"
               className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
             >
               Sobre Nós
-            </a>
-            <a
-              href="#contrate-nos"
+            </Link>
+            <Link
+              to="/contrate-nos"
               className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
             >
               Contrate-nos
-            </a>
-            <a
-              href="#contato"
-              className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
-            >
-              Contato
-            </a>
+            </Link>
           </nav>
 
           {/* Mobile Menu Button */}
