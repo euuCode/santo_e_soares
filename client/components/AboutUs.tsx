@@ -37,20 +37,30 @@ export function AboutUs() {
               <div className="space-y-3 text-gray-600">
                 <div className="flex items-start space-x-3">
                   <Scale className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>Especialista em Direito Bancário e Financeiro</span>
+                  <span>
+                    Especializada em reverter cobranças abusivas e recuperar
+                    valores indevidos
+                  </span>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Award className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>Mais de 8 anos de experiência</span>
+                  <span>
+                    Reconhecida por conseguir limpar nomes no SPC e Serasa
+                    rapidamente
+                  </span>
                 </div>
                 <div className="flex items-start space-x-3">
                   <BookOpen className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>Graduada em Direito pela UFMG</span>
+                  <span>
+                    Expert em anular contratos bancários prejudiciais aos
+                    clientes
+                  </span>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Users className="text-lawfirm-gold-500 mt-1" size={18} />
                   <span>
-                    Centenas de casos de sucesso em processos bancários
+                    Dedicada a transformar problemas bancários em soluções
+                    vitórias
                   </span>
                 </div>
               </div>
@@ -76,20 +86,28 @@ export function AboutUs() {
               <div className="space-y-3 text-gray-600">
                 <div className="flex items-start space-x-3">
                   <Scale className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>Especialista em Direito do Consumidor Bancário</span>
+                  <span>
+                    Mestre em desvendar estratégias bancárias ocultas e
+                    protectão ao cliente
+                  </span>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Award className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>Mais de 10 anos de experiência</span>
+                  <span>
+                    Especializado em reverter situações que pareciam sem solução
+                  </span>
                 </div>
                 <div className="flex items-start space-x-3">
                   <BookOpen className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>Pós-graduado em Direito Bancário pela PUC-MG</span>
+                  <span>
+                    Focado em maximizar recuperações financeiras para seus
+                    clientes
+                  </span>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Users className="text-lawfirm-gold-500 mt-1" size={18} />
                   <span>
-                    Reconhecido por recuperações milionárias para clientes
+                    Comprometido em garantir justiça e resultados excepcionais
                   </span>
                 </div>
               </div>
