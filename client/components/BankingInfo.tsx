@@ -135,7 +135,7 @@ export function BankingInfo() {
             Resultados Comprovados
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
                 95%
@@ -143,13 +143,6 @@ export function BankingInfo() {
               <p className="text-gray-300">
                 Taxa de sucesso em recuperações bancárias
               </p>
-            </div>
-
-            <div>
-              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
-                48h
-              </div>
-              <p className="text-gray-300">Tempo médio para limpeza de nome</p>
             </div>
 
             <div>
