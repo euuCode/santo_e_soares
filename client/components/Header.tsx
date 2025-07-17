@@ -10,11 +10,13 @@ export function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="bg-lawfirm-green-600 text-white p-2 rounded-lg">
-              <div className="text-xl font-bold tracking-wider">S&S</div>
-            </div>
+            <img
+              src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=120,fit=crop,q=95/A1aPOyMlXXIPRlbw/bc7c8a94-66c3-4dff-9fb5-a469f0a8bbe3-Aq2JoPeqb7IMXQ70.png"
+              alt="Santo e Soares Advocacia"
+              className="h-12 w-12 object-contain"
+            />
             <div>
-              <h1 className="text-2xl font-bold text-lawfirm-green-600">
+              <h1 className="text-2xl font-bold text-lawfirm-gold-600">
                 Santo e Soares Advocacia
               </h1>
             </div>
@@ -24,25 +26,25 @@ export function Header() {
           <nav className="hidden lg:flex items-center space-x-8">
             <a
               href="#inicio"
-              className="text-gray-700 hover:text-lawfirm-green-600 font-medium transition-colors"
+              className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
             >
               Início
             </a>
             <a
               href="#sobre"
-              className="text-gray-700 hover:text-lawfirm-green-600 font-medium transition-colors"
+              className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
             >
               Sobre Nós
             </a>
             <a
               href="#areas"
-              className="text-gray-700 hover:text-lawfirm-green-600 font-medium transition-colors"
+              className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
             >
               Áreas de Atuação
             </a>
             <a
               href="#contato"
-              className="text-gray-700 hover:text-lawfirm-green-600 font-medium transition-colors"
+              className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
             >
               Contato
             </a>
@@ -51,7 +53,7 @@ export function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden bg-lawfirm-green-600 text-white p-2 rounded-lg hover:bg-lawfirm-green-700 transition-colors"
+            className="lg:hidden bg-lawfirm-gold-600 text-white p-2 rounded-lg hover:bg-lawfirm-gold-700 transition-colors"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
