@@ -9,11 +9,11 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <div className="bg-lawfirm-green-600 text-white p-2 rounded-lg">
-                <div className="text-xl font-bold tracking-wider">L&A</div>
+                <div className="text-xl font-bold tracking-wider">S&S</div>
               </div>
               <div>
                 <h3 className="text-xl font-bold text-lawfirm-green-400">
-                  Lima André Advogados
+                  Santo e Soares Advocacia
                 </h3>
               </div>
             </div>
@@ -33,15 +33,17 @@ export function Footer() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone className="text-lawfirm-green-400" size={20} />
-                <span className="text-gray-300">(11) 3456-7890</span>
+                <span className="text-gray-300">(31) 98107-7321</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MessageCircle className="text-lawfirm-green-400" size={20} />
-                <span className="text-gray-300">(11) 98765-4321</span>
+                <span className="text-gray-300">(31) 98107-7321</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="text-lawfirm-green-400" size={20} />
-                <span className="text-gray-300">contato@limaandre.adv.br</span>
+                <span className="text-gray-300">
+                  santosoaresadvocacia@gmail.com
+                </span>
               </div>
             </div>
           </div>
@@ -52,10 +54,9 @@ export function Footer() {
             <div className="flex items-start space-x-3">
               <MapPin className="text-lawfirm-green-400 mt-1" size={20} />
               <div className="text-gray-300">
-                <p>Av. Paulista, 1234</p>
-                <p>Conjunto 567</p>
-                <p>São Paulo - SP</p>
-                <p>CEP: 01310-100</p>
+                <p>Avenida Brasília, 972</p>
+                <p>Loja 7 - São Benedito</p>
+                <p>Santa Luzia - MG</p>
               </div>
             </div>
           </div>
@@ -65,7 +66,7 @@ export function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Lima André Advogados. Todos os direitos reservados.
+              © 2024 Santo e Soares Advocacia. Todos os direitos reservados.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
