@@ -16,8 +16,8 @@ export default function PlaceholderPage({
       <Header />
       <main className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="bg-lawfirm-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-            <Construction className="text-lawfirm-green-600" size={40} />
+          <div className="bg-lawfirm-gold-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+            <Construction className="text-lawfirm-gold-600" size={40} />
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">
             {title}
