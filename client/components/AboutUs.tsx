@@ -25,7 +25,7 @@ export function AboutUs() {
                 src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2F3e569d58ccd440a2b7773bebd5a6550e?format=webp&width=800"
                 alt="Dra. Bárbara Santos - Especialista em Direito Bancário"
                 className="w-full h-96 object-cover"
-                style={{ objectPosition: "center 30%" }}
+                style={{ objectPosition: "center 50%" }}
               />
             </div>
             <div className="p-8">
@@ -75,7 +75,7 @@ export function AboutUs() {
                 src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2Fa8634d04c7934c07a1a2678d36233a53?format=webp&width=800"
                 alt="Dr. Vitor Soares - Especialista em Direito Bancário"
                 className="w-full h-96 object-cover"
-                style={{ objectPosition: "center 10%" }}
+                style={{ objectPosition: "center 50%" }}
               />
             </div>
             <div className="p-8">
