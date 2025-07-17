@@ -38,7 +38,7 @@ export function Hero() {
         </p>
 
         {/* Call to Action Button */}
-        <button className="inline-flex items-center space-x-3 bg-white text-lawfirm-green-700 px-6 py-4 rounded-lg font-semibold text-lg hover:bg-gray-50 transition-colors shadow-lg">
+        <button className="inline-flex items-center space-x-3 bg-lawfirm-gold-600 text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-lawfirm-gold-700 transition-colors shadow-lg">
           <MessageCircle size={24} />
           <span>
             Fale agora com um advogado especialista em Direito Bancário
