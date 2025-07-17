@@ -37,10 +37,10 @@ export function Header() {
               Sobre Nós
             </a>
             <a
-              href="#areas"
+              href="#contrate-nos"
               className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors"
             >
-              Áreas de Atuação
+              Contrate-nos
             </a>
             <a
               href="#contato"
@@ -65,28 +65,28 @@ export function Header() {
             <div className="flex flex-col space-y-4">
               <a
                 href="#inicio"
-                className="text-gray-700 hover:text-lawfirm-green-600 font-medium transition-colors py-2"
+                className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Início
               </a>
               <a
                 href="#sobre"
-                className="text-gray-700 hover:text-lawfirm-green-600 font-medium transition-colors py-2"
+                className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Sobre Nós
               </a>
               <a
-                href="#areas"
-                className="text-gray-700 hover:text-lawfirm-green-600 font-medium transition-colors py-2"
+                href="#contrate-nos"
+                className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Áreas de Atuação
+                Contrate-nos
               </a>
               <a
                 href="#contato"
-                className="text-gray-700 hover:text-lawfirm-green-600 font-medium transition-colors py-2"
+                className="text-gray-700 hover:text-lawfirm-gold-600 font-medium transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contato
