@@ -10,8 +10,8 @@ export function Hero() {
           alt="Sala de reuniões profissional"
           className="w-full h-full object-cover"
         />
-        {/* Green overlay to match the original site */}
-        <div className="absolute inset-0 bg-lawfirm-green-600 bg-opacity-75 sm:bg-lawfirm-green-600 max-sm:bg-[rgba(51,83,18,1)]"></div>
+        {/* Golden overlay to match the new branding */}
+        <div className="absolute inset-0 bg-lawfirm-dark-800 bg-opacity-80 max-sm:bg-lawfirm-dark-900"></div>
         {/* Curved bottom border */}
         <div className="absolute bottom-0 left-0 right-0">
           <svg
