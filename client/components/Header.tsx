@@ -11,11 +11,11 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <div className="bg-lawfirm-green-600 text-white p-2 rounded-lg">
-              <div className="text-xl font-bold tracking-wider">L&A</div>
+              <div className="text-xl font-bold tracking-wider">S&S</div>
             </div>
             <div>
               <h1 className="text-2xl font-bold text-lawfirm-green-600">
-                Lima André Advogados
+                Santo e Soares Advocacia
               </h1>
             </div>
           </div>
