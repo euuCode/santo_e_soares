@@ -8,11 +8,13 @@ export function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="bg-lawfirm-green-600 text-white p-2 rounded-lg">
-                <div className="text-xl font-bold tracking-wider">S&S</div>
-              </div>
+              <img
+                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=120,fit=crop,q=95/A1aPOyMlXXIPRlbw/bc7c8a94-66c3-4dff-9fb5-a469f0a8bbe3-Aq2JoPeqb7IMXQ70.png"
+                alt="Santo e Soares Advocacia"
+                className="h-12 w-12 object-contain"
+              />
               <div>
-                <h3 className="text-xl font-bold text-lawfirm-green-400">
+                <h3 className="text-xl font-bold text-lawfirm-gold-400">
                   Santo e Soares Advocacia
                 </h3>
               </div>
@@ -21,7 +23,7 @@ export function Footer() {
               Escritório especializado em Direito Bancário, defendendo seus
               direitos com excelência e dedicação há mais de 10 anos.
             </p>
-            <button className="inline-flex items-center space-x-2 bg-lawfirm-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-lawfirm-green-700 transition-colors">
+            <button className="inline-flex items-center space-x-2 bg-lawfirm-gold-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-lawfirm-gold-700 transition-colors">
               <MessageCircle size={20} />
               <span>Fale Conosco</span>
             </button>
@@ -32,15 +34,15 @@ export function Footer() {
             <h4 className="text-lg font-semibold mb-6">Contato</h4>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <Phone className="text-lawfirm-green-400" size={20} />
+                <Phone className="text-lawfirm-gold-400" size={20} />
                 <span className="text-gray-300">(31) 98107-7321</span>
               </div>
               <div className="flex items-center space-x-3">
-                <MessageCircle className="text-lawfirm-green-400" size={20} />
+                <MessageCircle className="text-lawfirm-gold-400" size={20} />
                 <span className="text-gray-300">(31) 98107-7321</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="text-lawfirm-green-400" size={20} />
+                <Mail className="text-lawfirm-gold-400" size={20} />
                 <span className="text-gray-300">
                   santosoaresadvocacia@gmail.com
                 </span>
@@ -52,7 +54,7 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-6">Localização</h4>
             <div className="flex items-start space-x-3">
-              <MapPin className="text-lawfirm-green-400 mt-1" size={20} />
+              <MapPin className="text-lawfirm-gold-400 mt-1" size={20} />
               <div className="text-gray-300">
                 <p>Avenida Brasília, 972</p>
                 <p>Loja 7 - São Benedito</p>
@@ -71,13 +73,13 @@ export function Footer() {
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
                 href="#"
-                className="text-gray-400 hover:text-lawfirm-green-400 text-sm transition-colors"
+                className="text-gray-400 hover:text-lawfirm-gold-400 text-sm transition-colors"
               >
                 Política de Privacidade
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-lawfirm-green-400 text-sm transition-colors"
+                className="text-gray-400 hover:text-lawfirm-gold-400 text-sm transition-colors"
               >
                 Termos de Uso
               </a>
