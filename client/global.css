@@ -55,17 +55,29 @@
 
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    /* Law Firm Green Colors */
-    --lawfirm-green-50: 140 45% 96%;
-    --lawfirm-green-100: 140 45% 88%;
-    --lawfirm-green-200: 140 45% 76%;
-    --lawfirm-green-300: 140 45% 64%;
-    --lawfirm-green-400: 140 45% 52%;
-    --lawfirm-green-500: 140 60% 40%;
-    --lawfirm-green-600: 140 65% 35%;
-    --lawfirm-green-700: 140 70% 30%;
-    --lawfirm-green-800: 140 75% 25%;
-    --lawfirm-green-900: 140 80% 20%;
+    /* Law Firm Golden Colors */
+    --lawfirm-gold-50: 45 45% 96%;
+    --lawfirm-gold-100: 45 55% 88%;
+    --lawfirm-gold-200: 45 65% 76%;
+    --lawfirm-gold-300: 45 75% 64%;
+    --lawfirm-gold-400: 45 85% 52%;
+    --lawfirm-gold-500: 43 89% 38%;
+    --lawfirm-gold-600: 41 91% 30%;
+    --lawfirm-gold-700: 39 93% 25%;
+    --lawfirm-gold-800: 37 95% 20%;
+    --lawfirm-gold-900: 35 97% 15%;
+
+    /* Dark theme colors */
+    --lawfirm-dark-50: 240 5% 96%;
+    --lawfirm-dark-100: 240 5% 88%;
+    --lawfirm-dark-200: 240 5% 76%;
+    --lawfirm-dark-300: 240 5% 64%;
+    --lawfirm-dark-400: 240 5% 52%;
+    --lawfirm-dark-500: 240 6% 35%;
+    --lawfirm-dark-600: 240 7% 25%;
+    --lawfirm-dark-700: 240 8% 18%;
+    --lawfirm-dark-800: 240 9% 12%;
+    --lawfirm-dark-900: 240 10% 8%;
   }
 
   .dark {
@@ -105,17 +117,29 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    /* Law Firm Green Colors - Dark mode */
-    --lawfirm-green-50: 140 45% 96%;
-    --lawfirm-green-100: 140 45% 88%;
-    --lawfirm-green-200: 140 45% 76%;
-    --lawfirm-green-300: 140 45% 64%;
-    --lawfirm-green-400: 140 45% 52%;
-    --lawfirm-green-500: 140 60% 40%;
-    --lawfirm-green-600: 140 65% 35%;
-    --lawfirm-green-700: 140 70% 30%;
-    --lawfirm-green-800: 140 75% 25%;
-    --lawfirm-green-900: 140 80% 20%;
+    /* Law Firm Golden Colors - Dark mode */
+    --lawfirm-gold-50: 45 45% 96%;
+    --lawfirm-gold-100: 45 55% 88%;
+    --lawfirm-gold-200: 45 65% 76%;
+    --lawfirm-gold-300: 45 75% 64%;
+    --lawfirm-gold-400: 45 85% 52%;
+    --lawfirm-gold-500: 43 89% 38%;
+    --lawfirm-gold-600: 41 91% 30%;
+    --lawfirm-gold-700: 39 93% 25%;
+    --lawfirm-gold-800: 37 95% 20%;
+    --lawfirm-gold-900: 35 97% 15%;
+
+    /* Dark theme colors - Dark mode */
+    --lawfirm-dark-50: 240 5% 96%;
+    --lawfirm-dark-100: 240 5% 88%;
+    --lawfirm-dark-200: 240 5% 76%;
+    --lawfirm-dark-300: 240 5% 64%;
+    --lawfirm-dark-400: 240 5% 52%;
+    --lawfirm-dark-500: 240 6% 35%;
+    --lawfirm-dark-600: 240 7% 25%;
+    --lawfirm-dark-700: 240 8% 18%;
+    --lawfirm-dark-800: 240 9% 12%;
+    --lawfirm-dark-900: 240 10% 8%;
   }
 }
 
