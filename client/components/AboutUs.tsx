@@ -24,7 +24,8 @@ export function AboutUs() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2F3e569d58ccd440a2b7773bebd5a6550e?format=webp&width=800"
                 alt="Dra. Bárbara Santos - Especialista em Direito Bancário"
-                className="w-full h-96 object-cover object-center"
+                className="w-full h-96 object-cover"
+                style={{ objectPosition: "center 30%" }}
               />
             </div>
             <div className="p-8">
