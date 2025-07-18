@@ -11,7 +11,16 @@ export function Hero() {
           className="w-full h-full object-cover"
         />
         {/* Golden overlay to match the new branding */}
-        <div className="absolute inset-0 bg-lawfirm-dark-800 bg-opacity-80 max-sm:bg-lawfirm-dark-900"></div>
+        <div
+          className="absolute inset-0 bg-lawfirm-dark-800 bg-opacity-80 max-sm:bg-lawfirm-dark-900"
+          style={{
+            backgroundImage:
+              "url(https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2Fc16bc0ce86b448b68286b275e5d13eb6)",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}
+        ></div>
         {/* Curved bottom border */}
         <div className="absolute bottom-0 left-0 right-0">
           <svg
@@ -38,20 +47,15 @@ export function Hero() {
         </p>
 
         {/* Call to Action Button */}
-        <button
-          onClick={() =>
-            window.open(
-              "https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0",
-              "_blank",
-            )
-          }
-          className="inline-flex items-center space-x-3 bg-lawfirm-gold-600 text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-lawfirm-gold-700 transition-colors shadow-lg"
+        <a
+          href="https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center space-x-3 bg-lawfirm-gold-600 text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-lawfirm-gold-700 transition-colors shadow-lg cursor-pointer"
         >
           <MessageCircle size={24} />
-          <span>
-            Fale agora com um advogado especialista em Direito Bancário
-          </span>
-        </button>
+          <div>Fale agora com um advogado especialista em Direito Bancário</div>
+        </a>
       </div>
     </section>
   );
