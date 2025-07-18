@@ -19,6 +19,9 @@ export function Footer() {
                 </h3>
               </div>
             </div>
+            <span className="text-gray-300">
+              santosoaresadvocacia@gmail.com
+            </span>
             <p className="text-gray-300 mb-6 max-w-md">
               Escritório especializado em Direito Bancário, defendendo seus
               direitos com excelência e dedicação há mais de 10 anos.
