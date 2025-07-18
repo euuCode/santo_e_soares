@@ -151,4 +151,14 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Animation delay utilities */
+  .animation-delay-75 {
+    animation-delay: 75ms;
+  }
+
+  /* Glassmorphism utilities */
+  .backdrop-blur-xs {
+    backdrop-filter: blur(2px);
+  }
 }
