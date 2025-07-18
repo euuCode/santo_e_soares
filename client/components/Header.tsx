@@ -6,26 +6,32 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-lawfirm-dark-900 shadow-lg relative z-50">
+    <header className="bg-lawfirm-dark-900/95 backdrop-blur-md border-b border-lawfirm-gold-400/20 shadow-2xl relative z-50 sticky top-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-6">
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center space-x-3 bg-transparent px-4 py-3 rounded-lg hover:bg-lawfirm-dark-600 transition-colors"
+            className="group flex items-center space-x-4 bg-gradient-to-r from-lawfirm-dark-800/50 to-lawfirm-dark-700/50 px-6 py-4 rounded-xl hover:from-lawfirm-dark-700/60 hover:to-lawfirm-dark-600/60 transition-all duration-300 backdrop-blur-sm border border-lawfirm-gold-400/10 hover:border-lawfirm-gold-400/30 shadow-lg hover:shadow-xl"
           >
-            <img
-              src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=120,fit=crop,q=95/A1aPOyMlXXIPRlbw/bc7c8a94-66c3-4dff-9fb5-a469f0a8bbe3-Aq2JoPeqb7IMXQ70.png"
-              alt="Santo e Soares Advocacia"
-              className="h-12 w-12 object-contain"
-            />
-            <div>
+            <div className="relative">
+              <img
+                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=120,fit=crop,q=95/A1aPOyMlXXIPRlbw/bc7c8a94-66c3-4dff-9fb5-a469f0a8bbe3-Aq2JoPeqb7IMXQ70.png"
+                alt="Santo e Soares Advocacia"
+                className="h-14 w-14 object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-lawfirm-gold-400/10 rounded-full blur-xl group-hover:bg-lawfirm-gold-400/20 transition-all duration-300"></div>
+            </div>
+            <div className="flex flex-col">
               <h1
-                className="text-2xl font-normal text-lawfirm-gold-400"
+                className="text-2xl font-semibold text-lawfirm-gold-400 group-hover:text-lawfirm-gold-300 transition-colors duration-300 tracking-wide"
                 style={{ fontFamily: "Times New Roman, serif" }}
               >
-                Santo e Soares Advocacia
+                Santo e Soares
               </h1>
+              <span className="text-sm text-lawfirm-gold-500/80 font-light tracking-widest uppercase">
+                Advocacia
+              </span>
             </div>
           </Link>
 
