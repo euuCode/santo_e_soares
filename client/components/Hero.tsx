@@ -37,9 +37,7 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-          Advocacia Especializada em Processos
-          <br />
-          Contra Bancos
+          <p>Advocacia Especializada em Processos contra bancos</p>
         </h1>
 
         <p className="text-lg sm:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
