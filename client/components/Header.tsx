@@ -70,25 +70,25 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="lg:hidden py-4 border-t border-lawfirm-dark-700">
-            <div className="flex flex-col space-y-4">
+          <nav className="lg:hidden py-6 border-t border-lawfirm-gold-400/20 bg-lawfirm-dark-800/50 backdrop-blur-md">
+            <div className="flex flex-col space-y-3">
               <Link
                 to="/inicio"
-                className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors py-3 px-3 rounded-md hover:bg-lawfirm-dark-700 block"
+                className="text-gray-300 hover:text-lawfirm-gold-300 font-medium transition-all duration-300 py-4 px-6 rounded-xl hover:bg-lawfirm-gold-400/10 block border border-transparent hover:border-lawfirm-gold-400/20"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Início
               </Link>
               <Link
                 to="/sobre"
-                className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors py-3 px-3 rounded-md hover:bg-lawfirm-dark-700 block"
+                className="text-gray-300 hover:text-lawfirm-gold-300 font-medium transition-all duration-300 py-4 px-6 rounded-xl hover:bg-lawfirm-gold-400/10 block border border-transparent hover:border-lawfirm-gold-400/20"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Sobre Nós
               </Link>
               <Link
                 to="/contrate-nos"
-                className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors py-3 px-3 rounded-md hover:bg-lawfirm-dark-700 block"
+                className="text-white font-medium transition-all duration-300 py-4 px-6 rounded-xl bg-gradient-to-r from-lawfirm-gold-600 to-lawfirm-gold-700 hover:from-lawfirm-gold-500 hover:to-lawfirm-gold-600 block shadow-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contrate-nos
