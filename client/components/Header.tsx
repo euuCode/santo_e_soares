@@ -25,9 +25,9 @@ export function Header() {
             <div className="flex flex-col">
               <h1
                 className="text-2xl font-semibold text-lawfirm-gold-400 group-hover:text-lawfirm-gold-300 transition-colors duration-300 tracking-wide"
-                style={{ fontFamily: "Times New Roman, serif" }}
+                style={{ fontFamily: "__Inter_d65c78, sans-serif" }}
               >
-                Santo e Soares
+                Santo &amp; Soares
               </h1>
               <span className="text-sm text-lawfirm-gold-500/80 font-light tracking-widest uppercase">
                 Advocacia
