@@ -62,9 +62,18 @@ export function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden bg-gradient-to-r from-lawfirm-gold-600 to-lawfirm-gold-700 text-white p-3 rounded-xl hover:from-lawfirm-gold-500 hover:to-lawfirm-gold-600 transition-all duration-300 shadow-lg hover:shadow-xl backdrop-blur-sm border border-lawfirm-gold-400/20"
+            className="lg:hidden bg-gradient-to-r from-lawfirm-gold-600 to-lawfirm-gold-700 text-white p-2.5 sm:p-3 rounded-lg sm:rounded-xl hover:from-lawfirm-gold-500 hover:to-lawfirm-gold-600 transition-all duration-300 shadow-lg hover:shadow-xl backdrop-blur-sm border border-lawfirm-gold-400/20 flex items-center justify-center"
           >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMenuOpen ? (
+              <X size={20} className="sm:hidden" />
+            ) : (
+              <Menu size={20} className="sm:hidden" />
+            )}
+            {isMenuOpen ? (
+              <X size={24} className="hidden sm:block" />
+            ) : (
+              <Menu size={24} className="hidden sm:block" />
+            )}
           </button>
         </div>
 
