@@ -23,10 +23,15 @@ export function Footer() {
               Escritório especializado em Direito Bancário, defendendo seus
               direitos com excelência e dedicação há mais de 10 anos.
             </p>
-            <button className="inline-flex items-center space-x-2 bg-lawfirm-gold-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-lawfirm-gold-700 transition-colors">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 bg-lawfirm-gold-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-lawfirm-gold-700 transition-colors cursor-pointer"
+            >
               <MessageCircle size={20} />
               <span>Fale Conosco</span>
-            </button>
+            </a>
           </div>
 
           {/* Contact Info */}
