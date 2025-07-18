@@ -45,15 +45,8 @@ export function Footer() {
                 <Phone className="text-lawfirm-gold-400" size={20} />
                 <span className="text-gray-300">(31) 98107-7321</span>
               </div>
-              <div className="flex items-center space-x-3">
-                <MessageCircle className="text-lawfirm-gold-400" size={20} />
-                <span className="text-gray-300">(31) 98107-7321</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="text-lawfirm-gold-400" size={20} />
-                <span className="text-gray-300">
-                  santosoaresadvocacia@gmail.com
-                </span>
+              <div className="flex flex-row">
+                <div className="flex items-center space-x-3 mt-5"></div>
               </div>
             </div>
           </div>
