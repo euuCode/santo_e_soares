@@ -29,9 +29,7 @@ export function Hero() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className="w-full h-8 sm:h-12 lg:h-16"
-          >
-            <path d="M0 120V0C480 80 960 80 1440 0V120H0Z" fill="white" />
-          </svg>
+          />
         </div>
       </div>
 
