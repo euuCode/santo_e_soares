@@ -74,8 +74,8 @@ export function AboutUs() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2F6f4e448fe4fc4a339133b392a4c480ff"
                 alt="Dr. Vitor Soares - Especialista em Direito Bancário"
-                className="w-full h-96 object-cover mx-auto"
-                style={{ objectPosition: "center 60%" }}
+                className="w-full h-96 object-cover mx-auto grid"
+                style={{ objectPosition: "0% 1%" }}
               />
             </div>
             <div className="p-8">
