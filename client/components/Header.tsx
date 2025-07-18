@@ -12,7 +12,7 @@ export function Header() {
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center space-x-3 bg-lawfirm-dark-700 px-4 py-3 rounded-lg hover:bg-lawfirm-dark-600 transition-colors"
+            className="flex items-center space-x-3 bg-transparent px-4 py-3 rounded-lg hover:bg-lawfirm-dark-600 transition-colors"
           >
             <img
               src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=120,fit=crop,q=95/A1aPOyMlXXIPRlbw/bc7c8a94-66c3-4dff-9fb5-a469f0a8bbe3-Aq2JoPeqb7IMXQ70.png"
@@ -20,7 +20,10 @@ export function Header() {
               className="h-12 w-12 object-contain"
             />
             <div>
-              <h1 className="text-2xl font-bold text-lawfirm-gold-400">
+              <h1
+                className="text-2xl font-normal text-lawfirm-gold-400"
+                style={{ fontFamily: "Times New Roman, serif" }}
+              >
                 Santo e Soares Advocacia
               </h1>
             </div>
