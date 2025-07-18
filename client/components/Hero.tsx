@@ -12,13 +12,14 @@ export function Hero() {
         />
         {/* Golden overlay to match the new branding */}
         <div
-          className="absolute inset-0 bg-lawfirm-dark-800 bg-opacity-80 max-sm:bg-lawfirm-dark-900"
+          className="absolute inset-0 bg-lawfirm-dark-800 bg-opacity-80 max-sm:bg-lawfirm-dark-900 mx-auto"
           style={{
             backgroundImage:
               "url(https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2Fc16bc0ce86b448b68286b275e5d13eb6)",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
+            opacity: "0.5",
           }}
         ></div>
         {/* Curved bottom border */}
