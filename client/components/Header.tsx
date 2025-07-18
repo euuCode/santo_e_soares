@@ -36,24 +36,26 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-2 bg-lawfirm-dark-800/40 backdrop-blur-sm rounded-full px-6 py-3 border border-lawfirm-gold-400/10">
             <Link
               to="/inicio"
-              className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors px-3 py-2 rounded-md hover:bg-lawfirm-dark-700"
+              className="relative text-gray-300 hover:text-lawfirm-gold-300 font-medium transition-all duration-300 px-5 py-3 rounded-full hover:bg-lawfirm-gold-400/10 group"
             >
-              Início
+              <span className="relative z-10">Início</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-lawfirm-gold-400/0 to-lawfirm-gold-400/0 group-hover:from-lawfirm-gold-400/5 group-hover:to-lawfirm-gold-400/10 rounded-full transition-all duration-300"></div>
             </Link>
             <Link
               to="/sobre"
-              className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors px-3 py-2 rounded-md hover:bg-lawfirm-dark-700"
+              className="relative text-gray-300 hover:text-lawfirm-gold-300 font-medium transition-all duration-300 px-5 py-3 rounded-full hover:bg-lawfirm-gold-400/10 group"
             >
-              Sobre Nós
+              <span className="relative z-10">Sobre Nós</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-lawfirm-gold-400/0 to-lawfirm-gold-400/0 group-hover:from-lawfirm-gold-400/5 group-hover:to-lawfirm-gold-400/10 rounded-full transition-all duration-300"></div>
             </Link>
             <Link
               to="/contrate-nos"
-              className="text-gray-300 hover:text-lawfirm-gold-400 font-medium transition-colors px-3 py-2 rounded-md hover:bg-lawfirm-dark-700"
+              className="relative text-gray-300 hover:text-white font-medium transition-all duration-300 px-5 py-3 rounded-full bg-gradient-to-r from-lawfirm-gold-600 to-lawfirm-gold-700 hover:from-lawfirm-gold-500 hover:to-lawfirm-gold-600 shadow-lg hover:shadow-xl group"
             >
-              Contrate-nos
+              <span className="relative z-10">Contrate-nos</span>
             </Link>
           </nav>
 
