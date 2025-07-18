@@ -7,29 +7,29 @@ export function Header() {
 
   return (
     <header className="bg-lawfirm-dark-900/95 backdrop-blur-md border-b border-lawfirm-gold-400/20 shadow-2xl relative z-50 sticky top-0">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-6">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center py-3 sm:py-4 lg:py-6">
           {/* Logo */}
           <Link
             to="/"
-            className="group flex items-center space-x-4 bg-gradient-to-r from-lawfirm-dark-800/50 to-lawfirm-dark-700/50 px-6 py-4 rounded-xl hover:from-lawfirm-dark-700/60 hover:to-lawfirm-dark-600/60 transition-all duration-300 backdrop-blur-sm border border-lawfirm-gold-400/10 hover:border-lawfirm-gold-400/30 shadow-lg hover:shadow-xl"
+            className="group flex items-center space-x-2 sm:space-x-3 lg:space-x-4 bg-gradient-to-r from-lawfirm-dark-800/50 to-lawfirm-dark-700/50 px-3 py-2 sm:px-4 sm:py-3 lg:px-6 lg:py-4 rounded-lg sm:rounded-xl hover:from-lawfirm-dark-700/60 hover:to-lawfirm-dark-600/60 transition-all duration-300 backdrop-blur-sm border border-lawfirm-gold-400/10 hover:border-lawfirm-gold-400/30 shadow-lg hover:shadow-xl"
           >
             <div className="relative">
               <img
                 src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=120,fit=crop,q=95/A1aPOyMlXXIPRlbw/bc7c8a94-66c3-4dff-9fb5-a469f0a8bbe3-Aq2JoPeqb7IMXQ70.png"
                 alt="Santo e Soares Advocacia"
-                className="h-14 w-14 object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-300"
+                className="h-10 w-10 sm:h-12 sm:w-12 lg:h-14 lg:w-14 object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-lawfirm-gold-400/10 rounded-full blur-xl group-hover:bg-lawfirm-gold-400/20 transition-all duration-300"></div>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col min-w-0">
               <h1
-                className="text-2xl font-semibold text-lawfirm-gold-400 group-hover:text-lawfirm-gold-300 transition-colors duration-300 tracking-wide"
+                className="text-lg sm:text-xl lg:text-2xl font-semibold text-lawfirm-gold-400 group-hover:text-lawfirm-gold-300 transition-colors duration-300 tracking-wide whitespace-nowrap"
                 style={{ fontFamily: "__Inter_d65c78, sans-serif" }}
               >
                 Santo &amp; Soares
               </h1>
-              <span className="text-sm text-lawfirm-gold-500/80 font-light tracking-widest uppercase">
+              <span className="text-xs sm:text-sm text-lawfirm-gold-500/80 font-light tracking-widest uppercase whitespace-nowrap">
                 Advocacia
               </span>
             </div>
