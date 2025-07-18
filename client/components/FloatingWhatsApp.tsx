@@ -55,7 +55,12 @@ export function FloatingWhatsApp() {
 
       {/* Ripple effect */}
       <div className="absolute inset-0 rounded-full border-2 border-green-400/30 animate-ping"></div>
-      <div className="absolute inset-0 rounded-full border-2 border-green-400/20 animate-ping animation-delay-75"></div>
+      <a
+        href="https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="absolute inset-0 rounded-full border-2 border-green-400/20 animate-ping animation-delay-75 cursor-pointer flex"
+      />
     </div>
   );
 }
