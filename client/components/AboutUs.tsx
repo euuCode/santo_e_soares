@@ -3,7 +3,7 @@ import { Scale, Award, Users, BookOpen } from "lucide-react";
 export function AboutUs() {
   return (
     <section id="sobre" className="py-16 sm:py-20 lg:py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="flex flex-col justify-center items-center mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
