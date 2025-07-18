@@ -11,6 +11,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
+import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
 
 const queryClient = new QueryClient();
 
