@@ -161,4 +161,106 @@
   .backdrop-blur-xs {
     backdrop-filter: blur(2px);
   }
+
+  /* Professional animations and effects */
+  .card-hover {
+    @apply transition-all duration-500 ease-out;
+  }
+
+  .card-hover:hover {
+    @apply transform scale-105 shadow-2xl;
+  }
+
+  .fade-in {
+    animation: fadeIn 0.8s ease-out;
+  }
+
+  .slide-up {
+    animation: slideUp 0.6s ease-out;
+  }
+
+  .glow-effect {
+    filter: drop-shadow(0 0 20px rgba(202, 138, 4, 0.3));
+  }
+
+  .text-glow {
+    text-shadow:
+      0 0 20px rgba(202, 138, 4, 0.5),
+      0 0 40px rgba(202, 138, 4, 0.3);
+  }
+
+  .professional-gradient {
+    background: linear-gradient(
+      135deg,
+      rgba(202, 138, 4, 0.1) 0%,
+      rgba(202, 138, 4, 0.05) 50%,
+      rgba(202, 138, 4, 0.1) 100%
+    );
+  }
+
+  .elevated-card {
+    box-shadow:
+      0 4px 20px rgba(0, 0, 0, 0.1),
+      0 8px 40px rgba(202, 138, 4, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  }
+
+  .premium-border {
+    border: 1px solid rgba(202, 138, 4, 0.2);
+    position: relative;
+  }
+
+  .premium-border::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    padding: 1px;
+    background: linear-gradient(
+      45deg,
+      rgba(202, 138, 4, 0.3),
+      transparent,
+      rgba(202, 138, 4, 0.3)
+    );
+    border-radius: inherit;
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes pulse-glow {
+    0%,
+    100% {
+      filter: drop-shadow(0 0 10px rgba(202, 138, 4, 0.3));
+    }
+    50% {
+      filter: drop-shadow(0 0 25px rgba(202, 138, 4, 0.6));
+    }
+  }
+
+  .pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
 }
