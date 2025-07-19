@@ -8,7 +8,7 @@ export function Header() {
   return (
     <header className="bg-lawfirm-dark-900/95 backdrop-blur-md border-b border-lawfirm-gold-400/20 shadow-2xl relative z-50 sticky top-0">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-3 sm:py-4 lg:py-6">
+        <div className="flex justify-between items-center py-2 sm:py-3 lg:py-4">
           {/* Logo */}
           <Link
             to="/"
@@ -86,7 +86,7 @@ export function Header() {
                 className="text-gray-300 hover:text-lawfirm-gold-300 font-medium transition-all duration-300 py-3 sm:py-4 px-4 sm:px-6 rounded-lg sm:rounded-xl hover:bg-lawfirm-gold-400/10 block border border-transparent hover:border-lawfirm-gold-400/20"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Início
+                In��cio
               </Link>
               <Link
                 to="/sobre"
