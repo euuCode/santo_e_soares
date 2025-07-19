@@ -39,13 +39,16 @@ export function BankingInfo() {
           </p>
         </div>
 
-        {/* Problems We Solve */}
-        <div className="mb-16">
-          <h3 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-12 text-center">
-            Problemas Bancários Que Resolvemos
+        {/* Enhanced Problems We Solve */}
+        <div className="mb-20 slide-up" style={{ animationDelay: "0.3s" }}>
+          <h3 className="text-3xl lg:text-4xl font-bold text-white mb-16 text-center relative">
+            <span className="bg-gradient-to-r from-lawfirm-gold-300 via-lawfirm-gold-200 to-lawfirm-gold-300 bg-clip-text text-transparent">
+              Problemas Bancários Que Resolvemos
+            </span>
+            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-lawfirm-gold-400 to-lawfirm-gold-500 rounded-full"></div>
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-red-500">
               <div className="flex items-center mb-4">
                 <AlertTriangle className="text-red-500 mr-3" size={24} />
