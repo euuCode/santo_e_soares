@@ -45,23 +45,27 @@ export function AboutUs() {
           </p>
         </div>
 
-        {/* Lawyers Profiles */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+        {/* Enhanced Lawyers Profiles */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
           {/* Dra Barbara */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-            <div className="aspect-w-4 aspect-h-5 bg-gray-100">
+          <div
+            className="slide-up bg-white rounded-3xl elevated-card overflow-hidden card-hover premium-border group"
+            style={{ animationDelay: "0.2s" }}
+          >
+            <div className="aspect-w-4 aspect-h-5 bg-gradient-to-br from-gray-50 to-gray-100 relative overflow-hidden">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2F3e569d58ccd440a2b7773bebd5a6550e?format=webp&width=800"
                 alt="Dra. Bárbara Santos - Especialista em Direito Bancário"
-                className="w-full h-96 object-cover"
+                className="w-full h-96 object-cover transition-transform duration-700 group-hover:scale-110"
                 style={{ objectPosition: "center 45%" }}
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-lawfirm-dark-900/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-            <div className="p-8">
-              <h3 className="text-2xl font-bold text-lawfirm-gold-600 mb-2">
+            <div className="p-10 bg-gradient-to-br from-white via-gray-50/50 to-white">
+              <h3 className="text-3xl font-bold text-lawfirm-gold-600 mb-3 group-hover:text-lawfirm-gold-500 transition-colors duration-300">
                 Dra. Bárbara Santos
               </h3>
-              <p className="text-lawfirm-gold-500 font-semibold mb-4">
+              <p className="text-lawfirm-gold-500 font-semibold mb-6 text-lg">
                 Sócia Fundadora
               </p>
               <div className="space-y-3 text-gray-600">
