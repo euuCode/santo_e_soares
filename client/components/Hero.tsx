@@ -85,24 +85,7 @@ export function Hero() {
         {/* Premium Interactive CTA Button */}
         <div className="slide-up" style={{ animationDelay: "0.6s" }}>
           <div className="relative group">
-            {/* Background Glow Effect */}
-            <div className="absolute -inset-1 bg-gradient-to-r from-lawfirm-gold-400 via-lawfirm-gold-300 to-lawfirm-gold-400 rounded-3xl blur-lg opacity-60 group-hover:opacity-100 transition-all duration-500 animate-pulse"></div>
-
-            {/* Floating Particles Effect */}
-            <div className="absolute inset-0 overflow-hidden rounded-3xl">
-              <div
-                className="absolute w-2 h-2 bg-white/30 rounded-full animate-ping"
-                style={{ top: "20%", left: "15%", animationDelay: "0s" }}
-              ></div>
-              <div
-                className="absolute w-1 h-1 bg-lawfirm-gold-200/50 rounded-full animate-ping"
-                style={{ top: "60%", right: "20%", animationDelay: "1s" }}
-              ></div>
-              <div
-                className="absolute w-1.5 h-1.5 bg-white/20 rounded-full animate-ping"
-                style={{ bottom: "25%", left: "25%", animationDelay: "2s" }}
-              ></div>
-            </div>
+       
 
             {/* Main Button */}
             <a
