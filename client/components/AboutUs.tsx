@@ -68,31 +68,39 @@ export function AboutUs() {
               <p className="text-lawfirm-gold-500 font-semibold mb-6 text-lg">
                 Sócia Fundadora
               </p>
-              <div className="space-y-3 text-gray-600">
-                <div className="flex items-start space-x-3">
-                  <Scale className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>
+              <div className="space-y-4 text-gray-700">
+                <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-lawfirm-gold-50/50 transition-colors duration-300 group/item">
+                  <div className="bg-lawfirm-gold-100 p-2 rounded-lg group-hover/item:bg-lawfirm-gold-200 transition-colors duration-300">
+                    <Scale className="text-lawfirm-gold-600" size={20} />
+                  </div>
+                  <span className="leading-relaxed font-medium">
                     Especializada em reverter cobranças abusivas e recuperar
                     valores indevidos
                   </span>
                 </div>
-                <div className="flex items-start space-x-3">
-                  <Award className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>
+                <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-lawfirm-gold-50/50 transition-colors duration-300 group/item">
+                  <div className="bg-lawfirm-gold-100 p-2 rounded-lg group-hover/item:bg-lawfirm-gold-200 transition-colors duration-300">
+                    <Award className="text-lawfirm-gold-600" size={20} />
+                  </div>
+                  <span className="leading-relaxed font-medium">
                     Reconhecida por conseguir limpar nomes no SPC e Serasa
                     rapidamente
                   </span>
                 </div>
-                <div className="flex items-start space-x-3">
-                  <BookOpen className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>
+                <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-lawfirm-gold-50/50 transition-colors duration-300 group/item">
+                  <div className="bg-lawfirm-gold-100 p-2 rounded-lg group-hover/item:bg-lawfirm-gold-200 transition-colors duration-300">
+                    <BookOpen className="text-lawfirm-gold-600" size={20} />
+                  </div>
+                  <span className="leading-relaxed font-medium">
                     Expert em anular contratos bancários prejudiciais aos
                     clientes
                   </span>
                 </div>
-                <div className="flex items-start space-x-3">
-                  <Users className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>
+                <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-lawfirm-gold-50/50 transition-colors duration-300 group/item">
+                  <div className="bg-lawfirm-gold-100 p-2 rounded-lg group-hover/item:bg-lawfirm-gold-200 transition-colors duration-300">
+                    <Users className="text-lawfirm-gold-600" size={20} />
+                  </div>
+                  <span className="leading-relaxed font-medium">
                     Dedicada a transformar problemas bancários em soluções
                     vitórias
                   </span>
