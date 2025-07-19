@@ -70,12 +70,12 @@ export function AboutUs() {
 
           {/* Dr Vitor */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-            <div className="aspect-w-4 aspect-h-5 bg-gray-100 flex flex-col">
+            <div className="aspect-w-4 aspect-h-5 bg-gray-100">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2F6f4e448fe4fc4a339133b392a4c480ff"
+                src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2Fbe30d87b64cd4b3899f25944aa29efe4?format=webp&width=800"
                 alt="Dr. Vitor Soares - Especialista em Direito Bancário"
-                className="w-full h-96 object-cover mx-auto grid"
-                style={{ objectPosition: "0% 1%" }}
+                className="w-full h-96 object-cover"
+                style={{ objectPosition: "center 30%" }}
               />
             </div>
             <div className="p-8">
