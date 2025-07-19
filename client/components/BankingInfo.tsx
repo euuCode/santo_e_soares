@@ -49,12 +49,22 @@ export function BankingInfo() {
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-red-500">
-              <div className="flex items-center mb-4">
-                <AlertTriangle className="text-red-500 mr-3" size={24} />
-                <h4 className="font-semibold text-gray-800">Juros Abusivos</h4>
+            <div
+              className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group"
+              style={{ animationDelay: "0.1s" }}
+            >
+              <div className="flex items-center mb-6">
+                <div className="bg-gradient-to-br from-red-100 to-red-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-red-200/50 transition-all duration-300">
+                  <AlertTriangle
+                    className="text-red-600 group-hover:scale-110 transition-transform duration-300"
+                    size={28}
+                  />
+                </div>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-red-600 transition-colors duration-300">
+                  Juros Abusivos
+                </h4>
               </div>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-700 leading-relaxed font-medium">
                 Revisão de contratos com juros acima do permitido por lei,
                 anatocismo e capitalização irregular de juros.
               </p>
