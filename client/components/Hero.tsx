@@ -2,24 +2,26 @@ import { MessageCircle } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[70vh] flex items-center justify-center">
-      {/* Background Image with Overlay */}
+    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+      {/* Background Image with Advanced Overlay */}
       <div className="absolute inset-0 flex flex-col">
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2F1564bbb3f4a24c80bb308de19336e863?format=webp&width=800"
           alt="Escritório Santo e Soares Advocacia"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover scale-105 transition-transform duration-700 hover:scale-110"
         />
-        {/* Golden overlay to match the new branding */}
+        {/* Multi-layered Professional Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-lawfirm-dark-900/90 via-lawfirm-dark-800/85 to-lawfirm-dark-700/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-lawfirm-dark-900/95 via-transparent to-transparent"></div>
         <div
-          className="absolute inset-0 bg-lawfirm-dark-800 bg-opacity-80 max-sm:bg-lawfirm-dark-900 mx-auto"
+          className="absolute inset-0 professional-gradient backdrop-blur-[1px]"
           style={{
             backgroundImage:
               "url(https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2Fc16bc0ce86b448b68286b275e5d13eb6)",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
-            opacity: "0.5",
+            opacity: "0.4",
           }}
         ></div>
         {/* Curved bottom border */}
