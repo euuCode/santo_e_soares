@@ -134,17 +134,16 @@ export function Hero() {
               <div className="absolute inset-0 rounded-3xl bg-white/0 group-hover:bg-white/10 transition-all duration-700"></div>
             </a>
 
-            {/* Floating Labels com novos textos */}
-<div className="absolute -top-6 -right-4 bg-green-700/90 backdrop-blur-sm text-white text-xs px-4 py-2 rounded-lg font-semibold opacity-0 group-hover:opacity-100 transition-all duration-500 delay-300 shadow-md">
-  Defesa do seu Direito, com Excelência
-</div>
-<div className="absolute -bottom-6 -left-6 bg-lawfirm-gold-700/90 backdrop-blur-sm text-white text-xs px-4 py-2 rounded-lg font-semibold opacity-0 group-hover:opacity-100 transition-all duration-500 delay-500 shadow-md">
-  Atendimento Transparente e Humanizado
-</div>
-
+                {/* Success Stories Floating Labels */}
+            <div className="absolute -top-6 -right-4 bg-green-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-bounce opacity-0 group-hover:opacity-100 transition-all duration-500 delay-300">
+                Defesa do seu Direito, com Excelência
+            </div>
+            <div className="absolute -bottom-4 -left-6 bg-lawfirm-gold-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-pulse opacity-0 group-hover:opacity-100 transition-all duration-500 delay-500">
+                Atendimento Transparente e Humanizado
+            </div>
           </div>
         </div>
       </div>
     </section>
   );
-}
+} 
