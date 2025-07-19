@@ -2,17 +2,40 @@ import { CheckCircle, AlertTriangle, DollarSign, FileText } from "lucide-react";
 
 export function BankingInfo() {
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-            Advocacia Bancária Especializada
+    <section className="py-20 sm:py-24 lg:py-32 bg-gradient-to-br from-lawfirm-dark-900 via-lawfirm-dark-800 to-lawfirm-dark-900 relative overflow-hidden">
+      {/* Sophisticated Background Pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `radial-gradient(circle at 20% 20%, rgba(202, 138, 4, 0.3) 0%, transparent 50%),
+                           radial-gradient(circle at 80% 80%, rgba(202, 138, 4, 0.2) 0%, transparent 50%),
+                           radial-gradient(circle at 40% 60%, rgba(202, 138, 4, 0.1) 0%, transparent 50%)`,
+          }}
+        ></div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        {/* Enhanced Section Header */}
+        <div className="text-center mb-20 fade-in">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-8 text-glow relative">
+            <span className="bg-gradient-to-r from-lawfirm-gold-300 via-lawfirm-gold-200 to-lawfirm-gold-300 bg-clip-text text-transparent">
+              Advocacia Bancária
+            </span>
+            <br />
+            <span className="text-lawfirm-gold-400 glow-effect">
+              Especializada
+            </span>
+            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-lawfirm-gold-400 to-lawfirm-gold-500 rounded-full"></div>
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Protegemos seus direitos contra práticas abusivas dos bancos. Nossa
-            expertise em direito bancário garante que você não seja prejudicado
-            por cobranças indevidas, juros abusivos ou contratos prejudiciais.
+          <p className="text-xl sm:text-2xl text-gray-200 max-w-4xl mx-auto leading-relaxed font-light">
+            Protegemos seus direitos contra{" "}
+            <span className="text-lawfirm-gold-300 font-semibold">
+              práticas abusivas
+            </span>{" "}
+            dos bancos. Nossa expertise em direito bancário garante que você não
+            seja prejudicado por cobranças indevidas, juros abusivos ou
+            contratos prejudiciais.
           </p>
         </div>
 
