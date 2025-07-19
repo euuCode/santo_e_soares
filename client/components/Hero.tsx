@@ -35,26 +35,54 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-          <p>Advocacia Especializada em Processos contra bancos</p>
-        </h1>
+      {/* Content with Professional Animations */}
+      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+        <div className="fade-in">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-8 leading-tight text-glow">
+            <span className="block bg-gradient-to-r from-white via-lawfirm-gold-200 to-white bg-clip-text text-transparent">
+              Advocacia Especializada em
+            </span>
+            <span className="block mt-2 text-lawfirm-gold-300 glow-effect">
+              Processos contra Bancos
+            </span>
+          </h1>
+        </div>
 
-        <p className="text-lg sm:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-          Defendemos seus direitos com excelência e dedicação
-        </p>
+        <div className="slide-up" style={{ animationDelay: "0.3s" }}>
+          <p className="text-xl sm:text-2xl text-white/95 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+            Defendemos seus direitos com{" "}
+            <span className="text-lawfirm-gold-300 font-semibold">
+              excelência
+            </span>{" "}
+            e{" "}
+            <span className="text-lawfirm-gold-300 font-semibold">
+              dedicação
+            </span>
+          </p>
+        </div>
 
-        {/* Call to Action Button */}
-        <a
-          href="https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center space-x-3 bg-lawfirm-gold-600 text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-lawfirm-gold-700 transition-colors shadow-lg cursor-pointer"
-        >
-          <MessageCircle size={24} />
-          <div>Fale agora com um advogado especialista em Direito Bancário</div>
-        </a>
+        {/* Enhanced Call to Action Button */}
+        <div className="slide-up" style={{ animationDelay: "0.6s" }}>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center space-x-4 bg-gradient-to-r from-lawfirm-gold-600 via-lawfirm-gold-500 to-lawfirm-gold-600 text-white px-8 py-5 rounded-2xl font-semibold text-lg hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-400 hover:to-lawfirm-gold-500 transition-all duration-300 shadow-2xl hover:shadow-lawfirm-gold-500/25 cursor-pointer elevated-card hover:scale-105 premium-border"
+          >
+            <MessageCircle
+              size={26}
+              className="group-hover:rotate-12 transition-transform duration-300"
+            />
+            <div className="text-center">
+              <div className="font-bold">
+                Fale agora com um advogado especialista
+              </div>
+              <div className="text-sm opacity-90 font-light">
+                Consulta gratuita • Direito Bancário
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
   );
