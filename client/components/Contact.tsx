@@ -19,9 +19,14 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically send the email
-    console.log("Form submitted:", formData);
-    alert("Mensagem enviada com sucesso! Entraremos em contato em breve.");
+
+    // Criar o corpo do email
+    const emailBody = `Nome: ${formData.name}%0AEmail: ${formData.email}%0ATelefone: ${formData.phone}%0AAssunto: ${formData.subject}%0A%0AMensagem:%0A${formData.message}`;
+
+    // Abrir cliente de email padrão
+    window.location.href = `mailto:espiritosantoadvmg@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${emailBody}`;
+
+    alert("Redirecionando para seu cliente de email...");
     setFormData({
       name: "",
       email: "",
@@ -81,7 +86,7 @@ export function Contact() {
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Email</h4>
                     <p className="text-gray-600">
-                      santosoaresadvocacia@gmail.com
+                      espiritosantoadvmg@gmail.com
                     </p>
                   </div>
                 </div>
