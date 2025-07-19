@@ -231,24 +231,24 @@ export function BankingInfo() {
         {/* Success Stats */}
         <div className="bg-lawfirm-dark-800 rounded-xl p-8 lg:p-12 text-white">
           <h3 className="text-2xl lg:text-3xl font-bold mb-8 text-center">
-            Resultados Comprovados
+            Compromisso com a justiça!
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
-                95%
+                Atendimento
               </div>
               <p className="text-gray-300">
-                Taxa de sucesso em recuperações bancárias
+                Transparente e Humanizado
               </p>
             </div>
 
             <div>
               <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
-                R$ 2M+
+                Defesa
               </div>
-              <p className="text-gray-300">Valores recuperados para clientes</p>
+              <p className="text-gray-300">Dos seus direitos, com excelência</p>
             </div>
 
             <div>
