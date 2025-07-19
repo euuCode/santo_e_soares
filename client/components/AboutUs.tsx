@@ -110,46 +110,58 @@ export function AboutUs() {
           </div>
 
           {/* Dr Vitor */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-            <div className="aspect-w-4 aspect-h-5 bg-gray-100">
+          <div
+            className="slide-up bg-white rounded-3xl elevated-card overflow-hidden card-hover premium-border group"
+            style={{ animationDelay: "0.4s" }}
+          >
+            <div className="aspect-w-4 aspect-h-5 bg-gradient-to-br from-gray-50 to-gray-100 relative overflow-hidden">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2Fbe30d87b64cd4b3899f25944aa29efe4?format=webp&width=800"
                 alt="Dr. Vitor Soares - Especialista em Direito Bancário"
-                className="w-full h-96 object-cover"
+                className="w-full h-96 object-cover transition-transform duration-700 group-hover:scale-110"
                 style={{ objectPosition: "center 30%" }}
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-lawfirm-dark-900/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-            <div className="p-8">
-              <h3 className="text-2xl font-bold text-lawfirm-gold-600 mb-2">
+            <div className="p-10 bg-gradient-to-br from-white via-gray-50/50 to-white">
+              <h3 className="text-3xl font-bold text-lawfirm-gold-600 mb-3 group-hover:text-lawfirm-gold-500 transition-colors duration-300">
                 Dr. Vitor Soares
               </h3>
-              <p className="text-lawfirm-gold-500 font-semibold mb-4">
+              <p className="text-lawfirm-gold-500 font-semibold mb-6 text-lg">
                 Sócio Fundador
               </p>
-              <div className="space-y-3 text-gray-600">
-                <div className="flex items-start space-x-3">
-                  <Scale className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>
-                    Mestre em desvendar estratégias bancárias ocultas e
-                    protectão ao cliente
+              <div className="space-y-4 text-gray-700">
+                <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-lawfirm-gold-50/50 transition-colors duration-300 group/item">
+                  <div className="bg-lawfirm-gold-100 p-2 rounded-lg group-hover/item:bg-lawfirm-gold-200 transition-colors duration-300">
+                    <Scale className="text-lawfirm-gold-600" size={20} />
+                  </div>
+                  <span className="leading-relaxed font-medium">
+                    Mestre em desvendar estratégias bancárias ocultas e proteção
+                    ao cliente
                   </span>
                 </div>
-                <div className="flex items-start space-x-3">
-                  <Award className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>
+                <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-lawfirm-gold-50/50 transition-colors duration-300 group/item">
+                  <div className="bg-lawfirm-gold-100 p-2 rounded-lg group-hover/item:bg-lawfirm-gold-200 transition-colors duration-300">
+                    <Award className="text-lawfirm-gold-600" size={20} />
+                  </div>
+                  <span className="leading-relaxed font-medium">
                     Especializado em reverter situações que pareciam sem solução
                   </span>
                 </div>
-                <div className="flex items-start space-x-3">
-                  <BookOpen className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>
+                <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-lawfirm-gold-50/50 transition-colors duration-300 group/item">
+                  <div className="bg-lawfirm-gold-100 p-2 rounded-lg group-hover/item:bg-lawfirm-gold-200 transition-colors duration-300">
+                    <BookOpen className="text-lawfirm-gold-600" size={20} />
+                  </div>
+                  <span className="leading-relaxed font-medium">
                     Focado em maximizar recuperações financeiras para seus
                     clientes
                   </span>
                 </div>
-                <div className="flex items-start space-x-3">
-                  <Users className="text-lawfirm-gold-500 mt-1" size={18} />
-                  <span>
+                <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-lawfirm-gold-50/50 transition-colors duration-300 group/item">
+                  <div className="bg-lawfirm-gold-100 p-2 rounded-lg group-hover/item:bg-lawfirm-gold-200 transition-colors duration-300">
+                    <Users className="text-lawfirm-gold-600" size={20} />
+                  </div>
+                  <span className="leading-relaxed font-medium">
                     Comprometido em garantir justiça e resultados excepcionais
                   </span>
                 </div>
