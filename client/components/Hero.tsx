@@ -38,13 +38,34 @@ export function Hero() {
       {/* Content with Professional Animations */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <div className="fade-in">
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-8 leading-tight text-glow">
-            <span className="block bg-gradient-to-r from-white via-lawfirm-gold-200 to-white bg-clip-text text-transparent">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-8 leading-tight relative">
+            <span
+              className="block text-white text-glow drop-shadow-2xl"
+              style={{
+                textShadow:
+                  "0 0 30px rgba(255, 255, 255, 0.8), 0 0 60px rgba(255, 255, 255, 0.4), 0 4px 20px rgba(0, 0, 0, 0.5)",
+              }}
+            >
               Advocacia Especializada em
             </span>
-            <span className="block mt-2 text-lawfirm-gold-300 glow-effect">
+            <span
+              className="block mt-4 text-white glow-effect drop-shadow-2xl"
+              style={{
+                textShadow:
+                  "0 0 40px rgba(255, 255, 255, 0.9), 0 0 80px rgba(202, 138, 4, 0.6), 0 4px 30px rgba(0, 0, 0, 0.7)",
+              }}
+            >
               Processos contra Bancos
             </span>
+            {/* Enhanced glow effects */}
+            <div className="absolute inset-0 text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight pointer-events-none opacity-20">
+              <span className="block text-lawfirm-gold-300 blur-xl">
+                Advocacia Especializada em
+              </span>
+              <span className="block mt-4 text-lawfirm-gold-300 blur-xl">
+                Processos contra Bancos
+              </span>
+            </div>
           </h1>
         </div>
 
