@@ -2,17 +2,46 @@ import { Scale, Award, Users, BookOpen } from "lucide-react";
 
 export function AboutUs() {
   return (
-    <section id="sobre" className="py-16 sm:py-20 lg:py-24 bg-gray-50">
-      <div className="flex flex-col justify-center items-center mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-            Sobre Nós
+    <section
+      id="sobre"
+      className="py-20 sm:py-24 lg:py-32 bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden"
+    >
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-5">
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `radial-gradient(circle at 25% 25%, rgba(202, 138, 4, 0.1) 0%, transparent 50%),
+                           radial-gradient(circle at 75% 75%, rgba(202, 138, 4, 0.1) 0%, transparent 50%)`,
+          }}
+        ></div>
+      </div>
+
+      <div className="flex flex-col justify-center items-center mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        {/* Enhanced Section Header */}
+        <div className="text-center mb-20 fade-in">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-800 mb-8 relative">
+            <span className="bg-gradient-to-r from-lawfirm-gold-600 via-lawfirm-gold-500 to-lawfirm-gold-600 bg-clip-text text-transparent">
+              Sobre Nós
+            </span>
+            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-lawfirm-gold-500 to-lawfirm-gold-600 rounded-full"></div>
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Somos especialistas em Direito Bancário com mais de 10 anos de
-            experiência, dedicados a proteger os direitos de nossos clientes com
-            excelência e transparência.
+          <p className="text-xl sm:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-light">
+            Somos especialistas em{" "}
+            <span className="text-lawfirm-gold-600 font-semibold">
+              Direito Bancário
+            </span>{" "}
+            com mais de 10 anos de experiência, dedicados a proteger os direitos
+            de nossos clientes com
+            <span className="text-lawfirm-gold-600 font-semibold">
+              {" "}
+              excelência
+            </span>{" "}
+            e{" "}
+            <span className="text-lawfirm-gold-600 font-semibold">
+              transparência
+            </span>
+            .
           </p>
         </div>
 
