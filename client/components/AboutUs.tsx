@@ -170,44 +170,65 @@ export function AboutUs() {
           </div>
         </div>
 
-        {/* Firm Values */}
-        <div className="bg-white rounded-xl p-8 lg:p-12">
-          <h3 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-8 text-center">
-            Nossos Valores
+        {/* Enhanced Firm Values */}
+        <div
+          className="slide-up bg-white rounded-3xl elevated-card premium-border p-12 lg:p-16"
+          style={{ animationDelay: "0.6s" }}
+        >
+          <h3 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-12 text-center relative">
+            <span className="bg-gradient-to-r from-lawfirm-gold-600 via-lawfirm-gold-500 to-lawfirm-gold-600 bg-clip-text text-transparent">
+              Nossos Valores
+            </span>
+            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-gradient-to-r from-lawfirm-gold-500 to-lawfirm-gold-600 rounded-full"></div>
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-lawfirm-gold-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Scale className="text-lawfirm-gold-600" size={32} />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div className="text-center group hover:transform hover:scale-105 transition-all duration-300">
+              <div className="bg-gradient-to-br from-lawfirm-gold-100 to-lawfirm-gold-200 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:shadow-lg group-hover:shadow-lawfirm-gold-200/50 transition-all duration-300 pulse-glow">
+                <Scale
+                  className="text-lawfirm-gold-600 group-hover:scale-110 transition-transform duration-300"
+                  size={36}
+                />
               </div>
-              <h4 className="text-xl font-semibold text-gray-800 mb-2">
+              <h4 className="text-2xl font-bold text-gray-800 mb-4 group-hover:text-lawfirm-gold-600 transition-colors duration-300">
                 Transparência
               </h4>
-              <p className="text-gray-600">
+              <p className="text-gray-700 leading-relaxed font-medium">
                 Comunicação clara e honesta em todas as etapas do processo
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="bg-lawfirm-gold-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="text-lawfirm-gold-600" size={32} />
+            <div className="text-center group hover:transform hover:scale-105 transition-all duration-300">
+              <div
+                className="bg-gradient-to-br from-lawfirm-gold-100 to-lawfirm-gold-200 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:shadow-lg group-hover:shadow-lawfirm-gold-200/50 transition-all duration-300 pulse-glow"
+                style={{ animationDelay: "0.5s" }}
+              >
+                <Award
+                  className="text-lawfirm-gold-600 group-hover:scale-110 transition-transform duration-300"
+                  size={36}
+                />
               </div>
-              <h4 className="text-xl font-semibold text-gray-800 mb-2">
+              <h4 className="text-2xl font-bold text-gray-800 mb-4 group-hover:text-lawfirm-gold-600 transition-colors duration-300">
                 Excelência
               </h4>
-              <p className="text-gray-600">
+              <p className="text-gray-700 leading-relaxed font-medium">
                 Compromisso com a qualidade e resultados efetivos
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="bg-lawfirm-gold-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="text-lawfirm-gold-600" size={32} />
+            <div className="text-center group hover:transform hover:scale-105 transition-all duration-300">
+              <div
+                className="bg-gradient-to-br from-lawfirm-gold-100 to-lawfirm-gold-200 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:shadow-lg group-hover:shadow-lawfirm-gold-200/50 transition-all duration-300 pulse-glow"
+                style={{ animationDelay: "1s" }}
+              >
+                <Users
+                  className="text-lawfirm-gold-600 group-hover:scale-110 transition-transform duration-300"
+                  size={36}
+                />
               </div>
-              <h4 className="text-xl font-semibold text-gray-800 mb-2">
+              <h4 className="text-2xl font-bold text-gray-800 mb-4 group-hover:text-lawfirm-gold-600 transition-colors duration-300">
                 Humanização
               </h4>
-              <p className="text-gray-600">
+              <p className="text-gray-700 leading-relaxed font-medium">
                 Atendimento personalizado e próximo ao cliente
               </p>
             </div>
