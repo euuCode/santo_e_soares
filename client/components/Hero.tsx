@@ -85,14 +85,12 @@ export function Hero() {
         {/* Premium Interactive CTA Button */}
         <div className="slide-up" style={{ animationDelay: "0.6s" }}>
           <div className="relative group">
-       
-
             {/* Main Button */}
             <a
               href="https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative inline-flex items-center space-x-6 bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-500 to-lawfirm-gold-700 text-white px-12 py-6 rounded-3xl font-bold text-xl hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-400 hover:to-lawfirm-gold-600 transition-all duration-500 shadow-2xl hover:shadow-lawfirm-gold-400/40 cursor-pointer hover:scale-110 transform-gpu overflow-hidden"
+              className="relative inline-flex items-center space-x-3 bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-500 to-lawfirm-gold-700 text-white px-5 py-2.5 sm:px-7 sm:py-3 rounded-xl font-bold text-sm sm:text-base shadow-lg transition-all duration-300 hover:scale-105"
               style={{
                 boxShadow:
                   "0 20px 40px rgba(0, 0, 0, 0.3), 0 0 50px rgba(202, 138, 4, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2)",
@@ -103,9 +101,9 @@ export function Hero() {
 
               {/* WhatsApp Icon with Advanced Effects */}
               <div className="relative z-10 flex items-center justify-center">
-                <div className="bg-white/20 backdrop-blur-sm p-3 rounded-2xl group-hover:bg-white/30 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                <div className="bg-white/20 backdrop-blur-sm p-2 rounded-xl group-hover:bg-white/30 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
                   <MessageCircle
-                    size={32}
+                    size={22}
                     className="drop-shadow-lg filter group-hover:drop-shadow-2xl transition-all duration-300"
                   />
                 </div>
@@ -113,37 +111,37 @@ export function Hero() {
 
               {/* Text Content */}
               <div className="relative z-10 text-left">
-                <div className="font-extrabold text-xl leading-tight tracking-wide group-hover:text-shadow-lg">
+                <div className="font-extrabold text-sm sm:text-base leading-tight tracking-wide group-hover:text-shadow-lg">
                   Fale agora com um advogado especialista
                 </div>
-                <div className="flex items-center space-x-2 mt-2 text-sm font-semibold opacity-95 group-hover:opacity-100">
+                <div className="flex items-center space-x-2 mt-1 text-xs font-semibold opacity-95 group-hover:opacity-100">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                   <span>Consulta gratuita • Disponível agora</span>
                 </div>
-                <div className="text-xs font-medium opacity-80 mt-1">
+                <div className="text-[10px] font-medium opacity-80 mt-0.5">
                   Direito Bancário • Resposta imediata
                 </div>
               </div>
 
               {/* Subtle Arrow Indicator */}
-              <div className="relative z-10 group-hover:translate-x-2 transition-transform duration-300">
-                <div className="w-0 h-0 border-l-8 border-l-white border-t-4 border-t-transparent border-b-4 border-b-transparent opacity-80 group-hover:opacity-100"></div>
+              <div className="relative z-10 group-hover:translate-x-2 transition-transform duration-300 pl-1">
+                <div className="w-0 h-0 border-l-6 border-l-white border-t-3 border-t-transparent border-b-3 border-b-transparent opacity-80 group-hover:opacity-100"></div>
               </div>
 
               {/* Ripple Effect on Hover */}
-              <div className="absolute inset-0 rounded-3xl bg-white/0 group-hover:bg-white/10 transition-all duration-700"></div>
+              <div className="absolute inset-0 rounded-xl bg-white/0 group-hover:bg-white/10 transition-all duration-700"></div>
             </a>
 
-                {/* Success Stories Floating Labels */}
-            <div className="absolute -top-6 -right-4 bg-green-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-bounce opacity-0 group-hover:opacity-100 transition-all duration-500 delay-300">
-                Defesa do seu Direito, com Excelência
+            {/* Success Stories Floating Labels */}
+            <div className="absolute -top-6 -right-4 bg-green-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-bounce opacity-0 group-hover:opacity-100 transition-all duration-500">
+              Defesa do seu Direito, com Excelência
             </div>
-            <div className="absolute -bottom-4 -left-6 bg-lawfirm-gold-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-pulse opacity-0 group-hover:opacity-100 transition-all duration-500 delay-500">
-                Atendimento Transparente e Humanizado
+            <div className="absolute -bottom-4 -left-6 bg-lawfirm-gold-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-pulse opacity-0 group-hover:opacity-100 transition-all duration-500">
+              Atendimento Transparente e Humanizado
             </div>
           </div>
         </div>
       </div>
     </section>
   );
-} 
+}
