@@ -39,33 +39,12 @@ export function Hero() {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <div className="fade-in">
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-8 leading-tight relative">
-            <span
-              className="block text-white text-glow drop-shadow-2xl"
-              style={{
-                textShadow:
-                  "0 0 30px rgba(255, 255, 255, 0.8), 0 0 60px rgba(255, 255, 255, 0.4), 0 4px 20px rgba(0, 0, 0, 0.5)",
-              }}
-            >
+            <span className="block text-white">
               Advocacia Especializada em
             </span>
-            <span
-              className="block mt-4 text-white glow-effect drop-shadow-2xl"
-              style={{
-                textShadow:
-                  "0 0 40px rgba(255, 255, 255, 0.9), 0 0 80px rgba(202, 138, 4, 0.6), 0 4px 30px rgba(0, 0, 0, 0.7)",
-              }}
-            >
+            <span className="block mt-4 text-white">
               Processos contra Bancos
             </span>
-            {/* Enhanced glow effects */}
-            <div className="absolute inset-0 text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight pointer-events-none opacity-20">
-              <span className="block text-lawfirm-gold-300 blur-xl">
-                Advocacia Especializada em
-              </span>
-              <span className="block mt-4 text-lawfirm-gold-300 blur-xl">
-                Processos contra Bancos
-              </span>
-            </div>
           </h1>
         </div>
 
@@ -90,7 +69,7 @@ export function Hero() {
               href="https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative inline-flex items-center space-x-3 bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-500 to-lawfirm-gold-700 text-white px-5 py-2.5 sm:px-7 sm:py-3 rounded-xl font-bold text-sm sm:text-base shadow-lg transition-all duration-300 hover:scale-105"
+              className="relative inline-flex items-center space-x-3 bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-500 to-lawfirm-gold-700 text-white px-5 py-2.5 sm:px-7 sm:py-3 rounded-xl"
               style={{
                 boxShadow:
                   "0 20px 40px rgba(0, 0, 0, 0.3), 0 0 50px rgba(202, 138, 4, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2)",
@@ -132,13 +111,15 @@ export function Hero() {
               <div className="absolute inset-0 rounded-xl bg-white/0 group-hover:bg-white/10 transition-all duration-700"></div>
             </a>
 
-            {/* Success Stories Floating Labels */}
-            <div className="absolute -top-6 -right-4 bg-green-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-bounce opacity-0 group-hover:opacity-100 transition-all duration-500">
+            {/* REMOVIDOS: Pop-ups de atendimento */}
+            {/* 
+            <div className="absolute -top-6 -right-4 bg-green-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-bounce opacity-0 group-hover:opacity-100 transition-all">
               Defesa do seu Direito, com Excelência
             </div>
-            <div className="absolute -bottom-4 -left-6 bg-lawfirm-gold-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-pulse opacity-0 group-hover:opacity-100 transition-all duration-500">
+            <div className="absolute -bottom-4 -left-6 bg-lawfirm-gold-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-pulse opacity-0 group-hover:opacity-100 transition-all">
               Atendimento Transparente e Humanizado
             </div>
+            */}
           </div>
         </div>
       </div>
