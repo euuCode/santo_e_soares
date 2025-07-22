@@ -61,10 +61,9 @@ export function Hero() {
           </p>
         </div>
 
-        {/* Premium Interactive CTA Button */}
+        {/* Professional and Direct CTA Button */}
         <div className="slide-up" style={{ animationDelay: "0.6s" }}>
           <div className="relative group">
-            {/* Main Button */}
             <a
               href="https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0"
               target="_blank"
@@ -91,7 +90,7 @@ export function Hero() {
               {/* Text Content */}
               <div className="relative z-10 text-left">
                 <div className="font-extrabold text-sm sm:text-base leading-tight tracking-wide group-hover:text-shadow-lg">
-                  Fale agora com um advogado especialista
+                  Solicitar Atendimento Jurídico
                 </div>
                 <div className="flex items-center space-x-2 mt-1 text-xs font-semibold opacity-95 group-hover:opacity-100">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
@@ -110,16 +109,6 @@ export function Hero() {
               {/* Ripple Effect on Hover */}
               <div className="absolute inset-0 rounded-xl bg-white/0 group-hover:bg-white/10 transition-all duration-700"></div>
             </a>
-
-            {/* REMOVIDOS: Pop-ups de atendimento */}
-            {/* 
-            <div className="absolute -top-6 -right-4 bg-green-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-bounce opacity-0 group-hover:opacity-100 transition-all">
-              Defesa do seu Direito, com Excelência
-            </div>
-            <div className="absolute -bottom-4 -left-6 bg-lawfirm-gold-500/90 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full font-bold animate-pulse opacity-0 group-hover:opacity-100 transition-all">
-              Atendimento Transparente e Humanizado
-            </div>
-            */}
           </div>
         </div>
       </div>
