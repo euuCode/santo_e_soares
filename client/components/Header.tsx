@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 
-export function Header() {
+export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -10,29 +10,9 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-2 sm:py-3 lg:py-4">
           {/* Logo */}
-          <Link
-            to="/"
-            className="group flex items-center space-x-2 sm:space-x-3 lg:space-x-4 bg-gradient-to-r from-lawfirm-dark-800/50 to-lawfirm-dark-700/50 px-3 py-2 sm:px-4 sm:py-3 lg:px-6 lg:py-4 rounded-lg sm:rounded-xl hover:from-lawfirm-dark-700/60 hover:to-lawfirm-dark-600/60 transition-all duration-300 backdrop-blur-sm border border-lawfirm-gold-400/10 hover:border-lawfirm-gold-400/30 shadow-lg hover:shadow-xl"
-          >
-            <div className="relative">
-              <img
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=120,fit=crop,q=95/A1aPOyMlXXIPRlbw/bc7c8a94-66c3-4dff-9fb5-a469f0a8bbe3-Aq2JoPeqb7IMXQ70.png"
-                alt="Santo e Soares Advocacia"
-                className="h-10 w-10 sm:h-12 sm:w-12 lg:h-14 lg:w-14 object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-300"
-              />
-              <div className="absolute inset-0 bg-lawfirm-gold-400/10 rounded-full blur-xl group-hover:bg-lawfirm-gold-400/20 transition-all duration-300"></div>
-            </div>
-            <div className="flex flex-col min-w-0">
-              <h1
-                className="text-lg sm:text-xl lg:text-2xl font-semibold text-lawfirm-gold-400 group-hover:text-lawfirm-gold-300 transition-colors duration-300 tracking-wide whitespace-nowrap"
-                style={{ fontFamily: "__Inter_d65c78, sans-serif" }}
-              >
-                Santo &amp; Soares
-              </h1>
-              <span className="text-xs sm:text-sm text-lawfirm-gold-500/80 font-light tracking-widest uppercase whitespace-nowrap">
-                Advocacia
-              </span>
-            </div>
+          <Link to="/" className="flex items-center space-x-2">
+            {/* ...seu logo aqui... */}
+            <span className="text-xl font-bold text-white">Santo & Soares</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -86,7 +66,7 @@ export function Header() {
                 className="text-gray-300 hover:text-lawfirm-gold-300 font-medium transition-all duration-300 py-3 sm:py-4 px-4 sm:px-6 rounded-lg sm:rounded-xl hover:bg-lawfirm-gold-400/10 block border border-transparent hover:border-lawfirm-gold-400/20"
                 onClick={() => setIsMenuOpen(false)}
               >
-                In��cio
+                Início
               </Link>
               <Link
                 to="/sobre"
