@@ -92,10 +92,7 @@ export function Hero() {
                 <div className="font-extrabold text-sm sm:text-base leading-tight tracking-wide group-hover:text-shadow-lg">
                   Solicitar Atendimento Jurídico
                 </div>
-                <div className="flex items-center space-x-2 mt-1 text-xs font-semibold opacity-95 group-hover:opacity-100">
-                  <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                  <span>Consulta gratuita • Disponível agora</span>
-                </div>
+                {/* Linha removida: Consulta gratuita • Disponível agora */}
                 <div className="text-[10px] font-medium opacity-80 mt-0.5">
                   Direito Bancário • Resposta imediata
                 </div>
