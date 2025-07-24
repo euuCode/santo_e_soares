@@ -66,7 +66,7 @@ export default function Header() {
                 className="text-gray-300 hover:text-lawfirm-gold-300 font-medium transition-all duration-300 py-3 sm:py-4 px-4 sm:px-6 rounded-lg sm:rounded-xl hover:bg-lawfirm-gold-400/10 block border border-transparent hover:border-lawfirm-gold-400/20"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Início
+                Home
               </Link>
               <Link
                 to="/sobre"
