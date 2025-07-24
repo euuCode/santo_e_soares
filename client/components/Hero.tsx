@@ -6,7 +6,7 @@ export function Hero() {
       {/* Background Image with Advanced Overlay */}
       <div className="absolute inset-0 flex flex-col">
         <img
-          src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2F1564bbb3f4a24c80bb308de19336e863?format=webp&width=800"
+          src="https://imgur.com/a/3cnYE3f"
           alt="Escritório Santo e Soares Advocacia"
           className="w-full h-full object-cover scale-105 transition-transform duration-700 hover:scale-110"
         />
