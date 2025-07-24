@@ -62,7 +62,7 @@ export default function Header() {
           <nav className="lg:hidden py-4 sm:py-6 border-t border-lawfirm-gold-400/20 bg-lawfirm-dark-800/50 backdrop-blur-md">
             <div className="flex flex-col space-y-2 sm:space-y-3">
               <Link
-                to="/inicio"
+                to="/Home"
                 className="text-gray-300 hover:text-lawfirm-gold-300 font-medium transition-all duration-300 py-3 sm:py-4 px-4 sm:px-6 rounded-lg sm:rounded-xl hover:bg-lawfirm-gold-400/10 block border border-transparent hover:border-lawfirm-gold-400/20"
                 onClick={() => setIsMenuOpen(false)}
               >
