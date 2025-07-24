@@ -17,7 +17,7 @@ export function Hero() {
           className="absolute inset-0 professional-gradient backdrop-blur-[1px]"
           style={{
             backgroundImage:
-              "url https://imgur.com/a/3cnYE3f",
+              "url (https://imgur.com/a/3cnYE3f)",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
