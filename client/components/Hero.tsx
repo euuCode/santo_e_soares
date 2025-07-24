@@ -6,7 +6,7 @@ export function Hero() {
       {/* Background Image with Advanced Overlay */}
       <div className="absolute inset-0 flex flex-col">
         <img
-          src="https://imgur.com/a/3cnYE3f"
+          src="https://i.imgur.com/wtRUV9W.jpeg"
           alt="Escritório Santo e Soares Advocacia"
           className="w-full h-full object-cover scale-105 transition-transform duration-700 hover:scale-110"
         />
@@ -17,7 +17,7 @@ export function Hero() {
           className="absolute inset-0 professional-gradient backdrop-blur-[1px]"
           style={{
             backgroundImage:
-              "url (https://imgur.com/a/3cnYE3f)",
+              "url (https://i.imgur.com/wtRUV9W.jpeg)",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
