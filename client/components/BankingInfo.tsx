@@ -237,18 +237,11 @@ export function BankingInfo() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
-                95%
+                Atendimento
               </div>
               <p className="text-gray-300">
-                Taxa de sucesso em recuperações bancárias
+                Humanizado
               </p>
-            </div>
-
-            <div>
-              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
-                R$ 2M+
-              </div>
-              <p className="text-gray-300">Valores recuperados para clientes</p>
             </div>
 
             <div>
@@ -256,6 +249,13 @@ export function BankingInfo() {
                 100%
               </div>
               <p className="text-gray-300">Transparência no processo</p>
+            </div>
+
+            <div>
+              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
+                Especialista
+              </div>
+              <p className="text-gray-300">Em direito bancario</p>
             </div>
           </div>
         </div>
