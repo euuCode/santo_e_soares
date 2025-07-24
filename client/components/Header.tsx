@@ -18,7 +18,7 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-2 bg-lawfirm-dark-800/40 backdrop-blur-sm rounded-full px-6 py-3 border border-lawfirm-gold-400/10">
             <Link
-              to="/inicio"
+              to="/Home"
               className="relative text-gray-300 hover:text-lawfirm-gold-300 font-medium transition-all duration-300 px-5 py-3 rounded-full hover:bg-lawfirm-gold-400/10 group"
             >
               <span className="relative z-10">Home</span>
