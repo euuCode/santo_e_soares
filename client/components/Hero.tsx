@@ -39,12 +39,8 @@ export function Hero() {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <div className="fade-in">
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-8 leading-tight text-white">
-            <span className="block">
-              Advocacia Especializada em
-            </span>
-            <span className="block mt-4">
-              Processos contra Bancos
-            </span>
+            <span className="block">Advocacia Especializada em</span>
+            <span className="block mt-4">Processos contra Bancos</span>
           </h1>
         </div>
 

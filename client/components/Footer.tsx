@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
@@ -19,9 +19,7 @@ export function Footer() {
                 </h3>
               </div>
             </div>
-                        <span className="text-gray-300">
-              espiritosantoadvmg@gmail.com
-            </span>
+            <span className="text-gray-300">espiritosantoadvmg@gmail.com</span>
             <p className="text-gray-300 mb-6 max-w-md">
               Escritório especializado em Direito Bancário, defendendo seus
               direitos com excelência e dedicação há mais de 10 anos.
@@ -65,7 +63,7 @@ export function Footer() {
           </div>
         </div>
 
-                {/* Bottom Section */}
+        {/* Bottom Section */}
         <div className="border-t border-gray-800 mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
