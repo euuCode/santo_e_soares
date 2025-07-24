@@ -6,7 +6,7 @@ export function FloatingWhatsApp() {
 
   const handleWhatsAppClick = () => {
     window.open(
-      "https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0",
+      "https://api.whatsapp.com/send/?phone=5531981077321&text=Olá! Vim pelo site e gostaria de falar com um advogado especialista em direito bancário.",
       "_blank",
     );
   };
@@ -56,7 +56,7 @@ export function FloatingWhatsApp() {
       {/* Ripple effect */}
       <div className="absolute inset-0 rounded-full border-2 border-green-400/30 animate-ping"></div>
       <a
-        href="https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0"
+        href="https://api.whatsapp.com/send/?phone=5531981077321&text=Olá! Vim pelo site e gostaria de falar com um advogado especialista em direito bancário."
         target="_blank"
         rel="noopener noreferrer"
         className="absolute inset-0 rounded-full border-2 border-green-400/20 animate-ping animation-delay-75 cursor-pointer flex"
