@@ -17,7 +17,7 @@ export function Contact() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     // Criar o corpo do email
@@ -38,7 +38,7 @@ export function Contact() {
 
   const handleWhatsAppClick = () => {
     window.open(
-      "https://api.whatsapp.com/send/?phone=5531981077321&text&type=phone_number&app_absent=0",
+      "https://api.whatsapp.com/send/?phone=5531981077321&text=Olá! Vim pelo site e gostaria de falar com um advogado especialista em direito bancário.",
       "_blank",
     );
   };
@@ -85,7 +85,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Email</h4>
-                    <p className="text-gray-600">
+                                        <p className="text-gray-600">
                       espiritosantoadvmg@gmail.com
                     </p>
                   </div>
