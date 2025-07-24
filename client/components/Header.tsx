@@ -38,10 +38,10 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-2 bg-lawfirm-dark-800/40 backdrop-blur-sm rounded-full px-6 py-3 border border-lawfirm-gold-400/10">
             <Link
-              to="/inicio"
+              to="/Home"
               className="relative text-gray-300 hover:text-lawfirm-gold-300 font-medium transition-all duration-300 px-5 py-3 rounded-full hover:bg-lawfirm-gold-400/10 group"
             >
-              <span className="relative z-10">Início</span>
+              <span className="relative z-10">Home</span>
               <div className="absolute inset-0 bg-gradient-to-r from-lawfirm-gold-400/0 to-lawfirm-gold-400/0 group-hover:from-lawfirm-gold-400/5 group-hover:to-lawfirm-gold-400/10 rounded-full transition-all duration-300"></div>
             </Link>
             <Link
@@ -82,7 +82,7 @@ export function Header() {
           <nav className="lg:hidden py-4 sm:py-6 border-t border-lawfirm-gold-400/20 bg-lawfirm-dark-800/50 backdrop-blur-md">
             <div className="flex flex-col space-y-2 sm:space-y-3">
               <Link
-                to="/inicio"
+                to="/Home"
                 className="text-gray-300 hover:text-lawfirm-gold-300 font-medium transition-all duration-300 py-3 sm:py-4 px-4 sm:px-6 rounded-lg sm:rounded-xl hover:bg-lawfirm-gold-400/10 block border border-transparent hover:border-lawfirm-gold-400/20"
                 onClick={() => setIsMenuOpen(false)}
               >
