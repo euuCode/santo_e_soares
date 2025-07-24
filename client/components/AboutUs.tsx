@@ -55,7 +55,7 @@ export function AboutUs() {
             <div className="aspect-w-4 aspect-h-5 bg-gradient-to-br from-gray-50 to-gray-100 relative overflow-hidden">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2F3e569d58ccd440a2b7773bebd5a6550e?format=webp&width=800"
-                alt="Dra. Bárbara Santos - Especialista em Direito Bancário"
+                alt="Dra. Bárbara santo - Especialista em Direito Bancário"
                 className="w-full h-96 object-cover transition-transform duration-700 group-hover:scale-110"
                 style={{ objectPosition: "center 45%" }}
               />
@@ -63,7 +63,7 @@ export function AboutUs() {
             </div>
             <div className="p-10 bg-gradient-to-br from-white via-gray-50/50 to-white">
               <h3 className="text-3xl font-bold text-lawfirm-gold-600 mb-3 group-hover:text-lawfirm-gold-500 transition-colors duration-300">
-                Dra. Bárbara Santos
+                Dra. Bárbara santo
               </h3>
               <p className="text-lawfirm-gold-500 font-semibold mb-6 text-lg">
                 Sócia Fundadora
