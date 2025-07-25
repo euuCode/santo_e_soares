@@ -14,7 +14,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-br from-lawfirm-dark-900/40 via-lawfirm-dark-800/30 to-lawfirm-dark-700/20"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-lawfirm-dark-900/50 via-transparent to-transparent"></div>
         <div
-          className="absolute inset-0 professional-gradient backdrop-blur-[1px]"
+          className="absolute inset-0 professional-gradient 
           style={{
             backgroundImage:
               "url('https://i.ibb.co/bjVVp84T/999e9261-1497-4d0f-a06f-87bed5c4196b.jpg')",
