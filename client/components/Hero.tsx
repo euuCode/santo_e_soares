@@ -8,7 +8,7 @@ export function Hero() {
         <img
           src="https://i.ibb.co/bjVVp84T/999e9261-1497-4d0f-a06f-87bed5c4196b.jpg"
           alt="Escritório Santo e Soares Advocacia"
-          className="w-full h-full object-cover scale-105 transition-transform duration-700 hover:scale-110"
+          className="w-full h-full object-contain scale-105 transition-transform duration-700 hover:scale-110"
         />
         {/* Multi-layered Professional Overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-lawfirm-dark-900/40 via-lawfirm-dark-800/30 to-lawfirm-dark-700/20"></div>
