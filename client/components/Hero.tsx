@@ -11,17 +11,17 @@ export function Hero() {
           className="w-full h-full object-cover scale-105 transition-transform duration-700 hover:scale-110"
         />
         {/* Multi-layered Professional Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-lawfirm-dark-900/90 via-lawfirm-dark-800/85 to-lawfirm-dark-700/80"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-lawfirm-dark-900/95 via-transparent to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-lawfirm-dark-900/40 via-lawfirm-dark-800/30 to-lawfirm-dark-700/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-lawfirm-dark-900/50 via-transparent to-transparent"></div>
         <div
           className="absolute inset-0 professional-gradient backdrop-blur-[1px]"
           style={{
             backgroundImage:
-              "url (https://i.postimg.cc/TR03VLKH/Whats-App-Image-2025-07-24-at-16-17-56.jpg)"
+              "url('https://i.postimg.cc/TR03VLKH/Whats-App-Image-2025-07-24-at-16-17-56.jpg')",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
-            opacity: "0.4",
+            opacity: 0.2,
           }}
         ></div>
         {/* Curved bottom border */}
