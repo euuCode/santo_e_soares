@@ -167,6 +167,24 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  /* Mobile viewport optimization */
+  @media (max-width: 640px) {
+    html {
+      font-size: 14px;
+    }
+
+    body {
+      line-height: 1.5;
+    }
+  }
+
+  /* Extra small devices optimization */
+  @media (max-width: 375px) {
+    html {
+      font-size: 13px;
+    }
+  }
+
   /* Animation delay utilities */
   .animation-delay-75 {
     animation-delay: 75ms;
