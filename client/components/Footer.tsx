@@ -41,12 +41,23 @@ export function Footer() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="text-lawfirm-gold-400" size={18} />
-                <span className="text-gray-300 text-sm">espiritosantoadvmg@gmail.com</span>
+                <span className="text-gray-300 text-sm">
+                  espiritosantoadvmg@gmail.com
+                </span>
               </div>
               <p className="text-gray-300/90 leading-relaxed max-w-md text-sm">
-                Escritório especializado em Direito Bancário, defendendo seus direitos com 
-                <span className="text-lawfirm-gold-300 font-semibold"> excelência</span> e 
-                <span className="text-lawfirm-gold-300 font-semibold"> dedicação</span>.
+                Escritório especializado em Direito Bancário, defendendo seus
+                direitos com
+                <span className="text-lawfirm-gold-300 font-semibold">
+                  {" "}
+                  excelência
+                </span>{" "}
+                e
+                <span className="text-lawfirm-gold-300 font-semibold">
+                  {" "}
+                  dedicação
+                </span>
+                .
               </p>
             </div>
 
@@ -56,7 +67,10 @@ export function Footer() {
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-3 bg-gradient-to-r from-lawfirm-gold-600 to-lawfirm-gold-700 text-white px-6 py-3 rounded-xl font-semibold hover:from-lawfirm-gold-500 hover:to-lawfirm-gold-600 transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 group"
             >
-              <MessageCircle size={20} className="group-hover:rotate-12 transition-transform duration-300" />
+              <MessageCircle
+                size={20}
+                className="group-hover:rotate-12 transition-transform duration-300"
+              />
               <span>Fale Conosco</span>
             </a>
           </div>

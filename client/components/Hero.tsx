@@ -14,7 +14,7 @@ export function Hero() {
             boxShadow: "1px 1px 3px 0 rgba(0, 0, 0, 1)",
           }}
         />
-        
+
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/30 to-black/50"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -34,9 +34,7 @@ export function Hero() {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <div className="fade-in">
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-8 leading-tight relative text-white drop-shadow-lg">
-            <span className="block">
-              Advocacia Especializada em
-            </span>
+            <span className="block">Advocacia Especializada em</span>
             <span className="block mt-4 text-lawfirm-gold-300 font-extrabold">
               Processos contra Bancos
             </span>
