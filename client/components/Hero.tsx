@@ -13,15 +13,18 @@ export function Hero() {
         {/* Light Professional Overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-white/85 via-gray-50/80 to-white/75 backdrop-blur-[1px]"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-white/90 via-transparent to-transparent"></div>
-        
+
         {/* Subtle Pattern Overlay */}
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: `radial-gradient(circle at 25% 25%, rgba(202, 138, 4, 0.1) 0%, transparent 50%), 
-                             radial-gradient(circle at 75% 75%, rgba(202, 138, 4, 0.08) 0%, transparent 50%)`
-          }}></div>
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `radial-gradient(circle at 25% 25%, rgba(202, 138, 4, 0.1) 0%, transparent 50%), 
+                             radial-gradient(circle at 75% 75%, rgba(202, 138, 4, 0.08) 0%, transparent 50%)`,
+            }}
+          ></div>
         </div>
-        
+
         {/* Curved bottom border */}
         <div className="absolute bottom-0 left-0 right-0">
           <svg
@@ -30,7 +33,10 @@ export function Hero() {
             xmlns="http://www.w3.org/2000/svg"
             className="w-full h-8 sm:h-12 lg:h-16 text-white"
           >
-            <path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" fill="currentColor"/>
+            <path
+              d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"
+              fill="currentColor"
+            />
           </svg>
         </div>
       </div>
@@ -73,14 +79,17 @@ export function Hero() {
               className="group inline-flex items-center space-x-4 bg-gradient-to-r from-lawfirm-gold-600 to-lawfirm-gold-700 text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:from-lawfirm-gold-500 hover:to-lawfirm-gold-600 transition-all duration-300 shadow-xl hover:shadow-2xl cursor-pointer hover:scale-105 elevated-card"
             >
               <div className="bg-white/20 p-2 rounded-xl group-hover:bg-white/30 transition-all duration-300">
-                <MessageCircle size={24} className="group-hover:rotate-12 transition-transform duration-300" />
+                <MessageCircle
+                  size={24}
+                  className="group-hover:rotate-12 transition-transform duration-300"
+                />
               </div>
               <span>Fale com um advogado especialista</span>
             </a>
-            
+
             <div className="text-center sm:text-left">
               <div className="text-sm text-gray-600 font-medium">
-                ✓ Consulta gratuita  •  ✓ Atendimento imediato
+                ✓ Consulta gratuita • ✓ Atendimento imediato
               </div>
               <div className="text-xs text-gray-500 mt-1">
                 Direito Bancário • Mais de 10 anos de experiência
@@ -93,15 +102,23 @@ export function Hero() {
         <div className="slide-up mt-16" style={{ animationDelay: "0.9s" }}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center p-6 bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-200/50 hover:shadow-xl transition-all duration-300 elevated-card">
-              <div className="text-3xl font-bold text-lawfirm-gold-600 mb-2">+10</div>
-              <div className="text-gray-700 font-medium">Anos de Experiência</div>
+              <div className="text-3xl font-bold text-lawfirm-gold-600 mb-2">
+                +10
+              </div>
+              <div className="text-gray-700 font-medium">
+                Anos de Experiência
+              </div>
             </div>
             <div className="text-center p-6 bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-200/50 hover:shadow-xl transition-all duration-300 elevated-card">
-              <div className="text-3xl font-bold text-lawfirm-gold-600 mb-2">100%</div>
+              <div className="text-3xl font-bold text-lawfirm-gold-600 mb-2">
+                100%
+              </div>
               <div className="text-gray-700 font-medium">Transparência</div>
             </div>
             <div className="text-center p-6 bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-200/50 hover:shadow-xl transition-all duration-300 elevated-card">
-              <div className="text-3xl font-bold text-lawfirm-gold-600 mb-2">24h</div>
+              <div className="text-3xl font-bold text-lawfirm-gold-600 mb-2">
+                24h
+              </div>
               <div className="text-gray-700 font-medium">Resposta Rápida</div>
             </div>
           </div>
