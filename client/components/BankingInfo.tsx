@@ -112,14 +112,22 @@ export function BankingInfo() {
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-green-500">
-              <div className="flex items-center mb-4">
-                <CheckCircle className="text-green-500 mr-3" size={24} />
-                <h4 className="font-semibold text-gray-800">
+            <div
+              className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group"
+              style={{ animationDelay: "0.4s" }}
+            >
+              <div className="flex items-center mb-6">
+                <div className="bg-gradient-to-br from-green-100 to-green-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-green-200/50 transition-all duration-300">
+                  <CheckCircle
+                    className="text-green-600 group-hover:scale-110 transition-transform duration-300"
+                    size={28}
+                  />
+                </div>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-green-600 transition-colors duration-300">
                   Revisão Contratual
                 </h4>
               </div>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-700 leading-relaxed font-medium">
                 Análise completa de contratos bancários identificando cláusulas
                 abusivas e irregularidades contratuais.
               </p>
