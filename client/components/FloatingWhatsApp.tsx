@@ -26,7 +26,10 @@ export function FloatingWhatsApp() {
 
         {/* WhatsApp Icon */}
         <div className="relative z-10">
-          <MessageCircle size={32} className="drop-shadow-lg group-hover:rotate-12 transition-transform duration-500" />
+          <MessageCircle
+            size={32}
+            className="drop-shadow-lg group-hover:rotate-12 transition-transform duration-500"
+          />
         </div>
 
         {/* Notification dot */}
