@@ -70,14 +70,22 @@ export function BankingInfo() {
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-orange-500">
-              <div className="flex items-center mb-4">
-                <DollarSign className="text-orange-500 mr-3" size={24} />
-                <h4 className="font-semibold text-gray-800">
+            <div
+              className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group"
+              style={{ animationDelay: "0.2s" }}
+            >
+              <div className="flex items-center mb-6">
+                <div className="bg-gradient-to-br from-orange-100 to-orange-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-orange-200/50 transition-all duration-300">
+                  <DollarSign
+                    className="text-orange-600 group-hover:scale-110 transition-transform duration-300"
+                    size={28}
+                  />
+                </div>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-orange-600 transition-colors duration-300">
                   Tarifas Indevidas
                 </h4>
               </div>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-700 leading-relaxed font-medium">
                 Contestação de TAC, TEC, tarifa de cadastro, seguro indevido e
                 outras cobranças não autorizadas.
               </p>
