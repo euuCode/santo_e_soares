@@ -12,25 +12,26 @@ export function FloatingWhatsApp() {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
+    <div className="fixed bottom-8 right-8 z-50">
       <button
         onClick={handleWhatsAppClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        className="group relative bg-gradient-to-br from-green-500 to-green-600 hover:from-green-400 hover:to-green-500 text-white rounded-full p-4 shadow-2xl hover:shadow-green-500/25 transition-all duration-300 transform hover:scale-110 animate-pulse hover:animate-none"
+        className="group relative bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-700 to-lawfirm-gold-600 hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-600 hover:to-lawfirm-gold-500 text-white rounded-full p-5 shadow-2xl hover:shadow-lawfirm-gold-500/30 transition-all duration-500 transform hover:scale-105 border-2 border-lawfirm-gold-400/30 backdrop-blur-sm"
         aria-label="Falar no WhatsApp"
       >
         {/* Background glow effect */}
-        <div className="absolute inset-0 bg-green-400 rounded-full blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-300"></div>
+        <div className="absolute inset-0 bg-lawfirm-gold-400 rounded-full blur-2xl opacity-40 group-hover:opacity-70 transition-all duration-500"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-lawfirm-gold-300/20 to-lawfirm-gold-600/20 rounded-full"></div>
 
         {/* WhatsApp Icon */}
         <div className="relative z-10">
-          <MessageCircle size={28} className="drop-shadow-lg" />
+          <MessageCircle size={32} className="drop-shadow-lg group-hover:rotate-12 transition-transform duration-500" />
         </div>
 
         {/* Notification dot */}
-        <div className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full flex items-center justify-center">
-          <div className="w-2 h-2 bg-white rounded-full animate-ping"></div>
+        <div className="absolute -top-2 -right-2 w-5 h-5 bg-gradient-to-br from-lawfirm-gold-300 to-lawfirm-gold-500 rounded-full flex items-center justify-center border-2 border-white shadow-lg">
+          <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
         </div>
 
         {/* Tooltip */}
@@ -41,26 +42,24 @@ export function FloatingWhatsApp() {
               : "opacity-0 translate-x-2 pointer-events-none"
           }`}
         >
-          <div className="bg-lawfirm-dark-800/95 backdrop-blur-sm text-white px-4 py-2 rounded-lg shadow-xl border border-lawfirm-gold-400/20 whitespace-nowrap">
-            <span className="text-sm font-medium">
-              Fale conosco no WhatsApp
+          <div className="bg-gradient-to-r from-lawfirm-dark-900/98 to-lawfirm-dark-800/98 backdrop-blur-md text-white px-6 py-3 rounded-xl shadow-2xl border-2 border-lawfirm-gold-400/30 whitespace-nowrap">
+            <span className="text-base font-semibold text-lawfirm-gold-200">
+              Consultoria Especializada
             </span>
+            <div className="text-xs text-gray-300 mt-1">
+              Direito Bancário Premium
+            </div>
             {/* Arrow */}
             <div className="absolute top-1/2 right-0 transform translate-x-full -translate-y-1/2">
-              <div className="w-0 h-0 border-l-8 border-l-lawfirm-dark-800/95 border-t-4 border-t-transparent border-b-4 border-b-transparent"></div>
+              <div className="w-0 h-0 border-l-10 border-l-lawfirm-dark-900/98 border-t-5 border-t-transparent border-b-5 border-b-transparent"></div>
             </div>
           </div>
         </div>
       </button>
 
       {/* Ripple effect */}
-      <div className="absolute inset-0 rounded-full border-2 border-green-400/30 animate-ping"></div>
-      <a
-        href="https://api.whatsapp.com/send/?phone=5531981077321&text=Olá! Vim pelo site e gostaria de falar com um advogado especialista em direito bancário."
-        target="_blank"
-        rel="noopener noreferrer"
-        className="absolute inset-0 rounded-full border-2 border-green-400/20 animate-ping animation-delay-75 cursor-pointer flex"
-      />
+      <div className="absolute inset-0 rounded-full border-2 border-lawfirm-gold-400/40 animate-ping"></div>
+      <div className="absolute inset-0 rounded-full border-2 border-lawfirm-gold-300/30 animate-ping animation-delay-75"></div>
     </div>
   );
 }
