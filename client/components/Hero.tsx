@@ -79,7 +79,9 @@ export function Hero() {
             </div>
             <span className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight">
               <span className="block sm:hidden">Fale conosco</span>
-              <span className="hidden sm:block">Fale com um advogado especialista</span>
+              <span className="hidden sm:block">
+                Fale com um advogado especialista
+              </span>
             </span>
           </a>
         </div>
