@@ -91,14 +91,22 @@ export function BankingInfo() {
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-blue-500">
-              <div className="flex items-center mb-4">
-                <FileText className="text-blue-500 mr-3" size={24} />
-                <h4 className="font-semibold text-gray-800">
+            <div
+              className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group"
+              style={{ animationDelay: "0.3s" }}
+            >
+              <div className="flex items-center mb-6">
+                <div className="bg-gradient-to-br from-blue-100 to-blue-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-blue-200/50 transition-all duration-300">
+                  <FileText
+                    className="text-blue-600 group-hover:scale-110 transition-transform duration-300"
+                    size={28}
+                  />
+                </div>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-blue-600 transition-colors duration-300">
                   Negativação Irregular
                 </h4>
               </div>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-700 leading-relaxed font-medium">
                 Remoção de nome dos órgãos de proteção (SPC/Serasa) por
                 negativações indevidas ou sem notificação prévia.
               </p>
