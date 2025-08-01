@@ -34,29 +34,25 @@ export function Hero() {
       {/* Content with Professional Animations */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <div className="fade-in">
-          <h1 className="text-4xl sm:text-6xl lg:text-8xl font-black mb-12 leading-tight relative text-white premium-text-shadow tracking-tight">
-            <span className="block font-light text-gray-100 text-2xl sm:text-3xl lg:text-4xl mb-4 tracking-[0.2em] uppercase opacity-90">Advocacia Especializada em</span>
-            <span className="block mt-2 text-lawfirm-gold-200 font-black executive-glow tracking-tight text-5xl sm:text-7xl lg:text-9xl">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-8 leading-tight relative text-white drop-shadow-lg">
+            <span className="block">Advocacia Especializada em</span>
+            <span className="block mt-4 text-lawfirm-gold-300 font-extrabold">
               Processos contra Bancos
             </span>
-            {/* Luxury underline with glow effect */}
-            <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-48 h-1.5 bg-gradient-to-r from-transparent via-lawfirm-gold-400 to-transparent rounded-full luxury-border executive-glow"></div>
-            <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 w-24 h-0.5 bg-gradient-to-r from-lawfirm-gold-500 to-lawfirm-gold-300 rounded-full opacity-60"></div>
+            {/* Elegant underline */}
+            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-lawfirm-gold-400 to-lawfirm-gold-500 rounded-full"></div>
           </h1>
         </div>
 
         <div className="slide-up" style={{ animationDelay: "0.3s" }}>
-          <p className="text-2xl sm:text-3xl lg:text-4xl text-white/90 mb-16 max-w-5xl mx-auto font-light leading-relaxed premium-text-shadow tracking-wide">
+          <p className="text-xl sm:text-2xl text-white/95 mb-12 max-w-4xl mx-auto font-light leading-relaxed drop-shadow-lg">
             Defendemos seus direitos com&nbsp;
-            <span className="text-lawfirm-gold-200 font-bold executive-glow tracking-wider">
+            <span className="text-lawfirm-gold-300 font-semibold">
               excelência
             </span>
             &nbsp;e&nbsp;
-            <span className="text-lawfirm-gold-200 font-bold executive-glow tracking-wider">
+            <span className="text-lawfirm-gold-300 font-semibold">
               dedicação
-            </span>
-            <span className="block mt-6 text-lg sm:text-xl lg:text-2xl text-gray-200/80 font-extralight tracking-[0.1em] uppercase">
-              Escritório Premium de Direito Bancário
             </span>
           </p>
         </div>
@@ -67,15 +63,15 @@ export function Hero() {
             href="https://api.whatsapp.com/send/?phone=5531981077321&text=Olá! Vim pelo site e gostaria de falar com um advogado especialista em direito bancário."
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center space-x-6 bg-gradient-to-r from-lawfirm-gold-600 via-lawfirm-gold-700 to-lawfirm-gold-600 text-white px-12 py-6 rounded-3xl font-bold text-xl hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-600 hover:to-lawfirm-gold-500 transition-all duration-500 diamond-shadow hover:scale-110 cursor-pointer luxury-border executive-glow tracking-wide uppercase"
+            className="group inline-flex items-center space-x-4 bg-gradient-to-r from-lawfirm-gold-600 to-lawfirm-gold-700 text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:from-lawfirm-gold-500 hover:to-lawfirm-gold-600 transition-all duration-300 shadow-xl hover:shadow-2xl cursor-pointer hover:scale-105"
           >
-            <div className="bg-white/25 p-3 rounded-2xl group-hover:bg-white/40 transition-all duration-500 diamond-shadow">
+            <div className="bg-white/20 p-2 rounded-xl group-hover:bg-white/30 transition-all duration-300">
               <MessageCircle
-                size={28}
-                className="group-hover:rotate-12 transition-transform duration-500 executive-glow"
+                size={24}
+                className="group-hover:rotate-12 transition-transform duration-300"
               />
             </div>
-            <span className="tracking-wider font-black">Consulta Premium</span>
+            <span>Fale com um advogado especialista</span>
           </a>
         </div>
       </div>
