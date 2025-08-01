@@ -27,7 +27,7 @@ const App = () => (
           <Route path="/sobre" element={<About />} />
           <Route path="/contrate-nos" element={<ContactPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <FloatingWhatsApp />
       </BrowserRouter>
