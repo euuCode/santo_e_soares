@@ -3,13 +3,21 @@ import { MessageCircle } from "lucide-react";
 export function Hero() {
   return (
     <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
-      {/* High-Quality Background Image */}
+      {/* High-Quality Background Image with Dark Overlay */}
       <div className="absolute inset-0 flex flex-col">
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2F66795490fc724754a8ef2a4f1f432f41?format=webp&width=1920&quality=95"
           alt="Escritório Santo e Soares Advocacia"
           className="w-full h-full object-cover"
+          style={{
+            backgroundColor: "rgba(5, 2, 2, 0)",
+            boxShadow: "1px 1px 3px 0 rgba(0, 0, 0, 1)",
+          }}
         />
+        
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/30 to-black/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
 
         {/* Curved bottom border */}
         <div className="absolute bottom-0 left-0 right-0">
@@ -18,12 +26,7 @@ export function Hero() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className="w-full h-8 sm:h-12 lg:h-16 text-white"
-          >
-            <path
-              d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"
-              fill="currentColor"
-            />
-          </svg>
+          />
         </div>
       </div>
 
@@ -44,11 +47,11 @@ export function Hero() {
 
         <div className="slide-up" style={{ animationDelay: "0.3s" }}>
           <p className="text-xl sm:text-2xl text-white/95 mb-12 max-w-4xl mx-auto font-light leading-relaxed drop-shadow-lg">
-            Defendemos seus direitos com{" "}
+            Defendemos seus direitos com&nbsp;
             <span className="text-lawfirm-gold-300 font-semibold">
               excelência
-            </span>{" "}
-            e{" "}
+            </span>
+            &nbsp;e&nbsp;
             <span className="text-lawfirm-gold-300 font-semibold">
               dedicação
             </span>
