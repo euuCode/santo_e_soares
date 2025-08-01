@@ -6,6 +6,7 @@ export function Hero() {
       {/* High-Quality Background Image with Light Theme */}
       <div className="absolute inset-0 flex flex-col">
         <img
+<<<<<<< HEAD
           src="https://cdn.builder.io/api/v1/image/assets%2Ff4640e8889504e459e0229464c3c7d21%2F66795490fc724754a8ef2a4f1f432f41?format=webp&width=1920&quality=95"
           alt="Escritório Santo e Soares Advocacia"
           className="w-full h-full object-cover scale-105 transition-transform duration-700 hover:scale-110"
@@ -25,6 +26,26 @@ export function Hero() {
           ></div>
         </div>
 
+=======
+          src="https://i.ibb.co/bjVVp84T/999e9261-1497-4d0f-a06f-87bed5c4196b.jpg"
+          alt="Escritório Santo e Soares Advocacia"
+          className="w-full h-full object-cover scale-105 transition-transform duration-700 hover:scale-110"
+        />
+        {/* Multi-layered Professional Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-lawfirm-dark-900/40 via-lawfirm-dark-800/30 to-lawfirm-dark-700/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-lawfirm-dark-900/50 via-transparent to-transparent"></div>
+        <div
+           
+          style={{
+            backgroundImage:
+              "url('https://i.ibb.co/bjVVp84T/999e9261-1497-4d0f-a06f-87bed5c4196b.jpg')",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            opacity: 0.2,
+          }}
+        ></div>
+>>>>>>> 2f6b4e32cacc2f84726ae72e319f4e37740ffd02
         {/* Curved bottom border */}
         <div className="absolute bottom-0 left-0 right-0">
           <svg

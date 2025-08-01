@@ -10,7 +10,7 @@ import Index from "./pages/Index";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import ContactPage from "./pages/ContactPage";
-import NotFound from "./pages/NotFound";
+import NotFound from "./pages/Home";
 import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
 
 const queryClient = new QueryClient();
@@ -27,7 +27,7 @@ const App = () => (
           <Route path="/sobre" element={<About />} />
           <Route path="/contrate-nos" element={<ContactPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<Home />} />
         </Routes>
         <FloatingWhatsApp />
       </BrowserRouter>

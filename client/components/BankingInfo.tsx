@@ -312,6 +312,7 @@ export function BankingInfo() {
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+<<<<<<< HEAD
             <div className="p-6 rounded-2xl bg-gradient-to-br from-lawfirm-gold-50 to-lawfirm-gold-100 hover:shadow-lg transition-all duration-300">
               <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-600 mb-2">
                 Atendimento
@@ -332,11 +333,31 @@ export function BankingInfo() {
 
             <div className="p-6 rounded-2xl bg-gradient-to-br from-lawfirm-gold-50 to-lawfirm-gold-100 hover:shadow-lg transition-all duration-300">
               <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-600 mb-2">
+=======
+            <div>
+              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
+                Atendimento
+              </div>
+              <p className="text-gray-300">
+                Humanizado
+              </p>
+            </div>
+
+            <div>
+              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
+>>>>>>> 2f6b4e32cacc2f84726ae72e319f4e37740ffd02
                 100%
               </div>
               <p className="text-gray-700 font-medium">
                 Transparência no processo
               </p>
+            </div>
+
+            <div>
+              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
+                Especialista
+              </div>
+              <p className="text-gray-300">Em direito bancario</p>
             </div>
           </div>
         </div>
