@@ -63,11 +63,7 @@ export function AboutUs() {
             </div>
             <div className="p-10 bg-gradient-to-br from-white via-gray-50/50 to-white">
               <h3 className="text-3xl font-bold text-lawfirm-gold-600 mb-3 group-hover:text-lawfirm-gold-500 transition-colors duration-300">
-<<<<<<< HEAD
                 Dra. Bárbara Santo
-=======
-                Dra. Bárbara santo
->>>>>>> 2f6b4e32cacc2f84726ae72e319f4e37740ffd02
               </h3>
               <p className="text-lawfirm-gold-500 font-semibold mb-6 text-lg">
                 Sócia Fundadora
