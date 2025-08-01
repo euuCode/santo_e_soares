@@ -49,204 +49,161 @@ export function BankingInfo() {
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div
-              className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group"
-              style={{ animationDelay: "0.1s" }}
-            >
+            {/* Card 1 - Juros Abusivos */}
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group" style={{ animationDelay: "0.1s" }}>
               <div className="flex items-center mb-6">
                 <div className="bg-gradient-to-br from-red-100 to-red-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-red-200/50 transition-all duration-300">
-                  <AlertTriangle
-                    className="text-red-600 group-hover:scale-110 transition-transform duration-300"
-                    size={28}
-                  />
+                  <AlertTriangle className="text-red-600 group-hover:scale-110 transition-transform duration-300" size={28} />
                 </div>
-                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-red-600 transition-colors duration-300">
-                  Juros Abusivos
-                </h4>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-red-600 transition-colors duration-300">Juros Abusivos</h4>
               </div>
               <p className="text-gray-700 leading-relaxed font-medium">
-                Revisão de contratos com juros acima do permitido por lei,
-                anatocismo e capitalização irregular de juros.
+                Revisão de contratos com juros acima do permitido por lei, anatocismo e capitalização irregular de juros.
               </p>
             </div>
 
-            <div
-              className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group"
-              style={{ animationDelay: "0.2s" }}
-            >
+            {/* Card 2 - Tarifas Indevidas */}
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group" style={{ animationDelay: "0.2s" }}>
               <div className="flex items-center mb-6">
                 <div className="bg-gradient-to-br from-orange-100 to-orange-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-orange-200/50 transition-all duration-300">
-                  <DollarSign
-                    className="text-orange-600 group-hover:scale-110 transition-transform duration-300"
-                    size={28}
-                  />
+                  <DollarSign className="text-orange-600 group-hover:scale-110 transition-transform duration-300" size={28} />
                 </div>
-                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-orange-600 transition-colors duration-300">
-                  Tarifas Indevidas
-                </h4>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-orange-600 transition-colors duration-300">Tarifas Indevidas</h4>
               </div>
               <p className="text-gray-700 leading-relaxed font-medium">
-                Contestação de TAC, TEC, tarifa de cadastro, seguro indevido e
-                outras cobranças não autorizadas.
+                Contestação de TAC, TEC, tarifa de cadastro, seguro indevido e outras cobranças não autorizadas.
               </p>
             </div>
 
-            <div
-              className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group"
-              style={{ animationDelay: "0.3s" }}
-            >
+            {/* Card 3 - Negativação Irregular */}
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group" style={{ animationDelay: "0.3s" }}>
               <div className="flex items-center mb-6">
                 <div className="bg-gradient-to-br from-blue-100 to-blue-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-blue-200/50 transition-all duration-300">
-                  <FileText
-                    className="text-blue-600 group-hover:scale-110 transition-transform duration-300"
-                    size={28}
-                  />
+                  <FileText className="text-blue-600 group-hover:scale-110 transition-transform duration-300" size={28} />
                 </div>
-                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-blue-600 transition-colors duration-300">
-                  Negativação Irregular
-                </h4>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-blue-600 transition-colors duration-300">Negativação Irregular</h4>
               </div>
               <p className="text-gray-700 leading-relaxed font-medium">
-                Remoção de nome dos órgãos de proteção (SPC/Serasa) por
-                negativações indevidas ou sem notificação prévia.
+                Remoção de nome dos órgãos de proteção (SPC/Serasa) por negativações indevidas ou sem notificação prévia.
               </p>
             </div>
 
-            <div
-              className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group"
-              style={{ animationDelay: "0.4s" }}
-            >
+            {/* Card 4 - Revisão Contratual */}
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group" style={{ animationDelay: "0.4s" }}>
               <div className="flex items-center mb-6">
                 <div className="bg-gradient-to-br from-green-100 to-green-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-green-200/50 transition-all duration-300">
-                  <CheckCircle
-                    className="text-green-600 group-hover:scale-110 transition-transform duration-300"
-                    size={28}
-                  />
+                  <CheckCircle className="text-green-600 group-hover:scale-110 transition-transform duration-300" size={28} />
                 </div>
-                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-green-600 transition-colors duration-300">
-                  Revisão Contratual
-                </h4>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-green-600 transition-colors duration-300">Revisão Contratual</h4>
               </div>
               <p className="text-gray-700 leading-relaxed font-medium">
-                Análise completa de contratos bancários identificando cláusulas
-                abusivas e irregularidades contratuais.
+                Análise completa de contratos bancários identificando cláusulas abusivas e irregularidades contratuais.
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-purple-500">
-              <div className="flex items-center mb-4">
-                <AlertTriangle className="text-purple-500 mr-3" size={24} />
-                <h4 className="font-semibold text-gray-800">
-                  Empréstimo Consignado
-                </h4>
+            {/* Card 5 - Empréstimo Consignado */}
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group" style={{ animationDelay: "0.5s" }}>
+              <div className="flex items-center mb-6">
+                <div className="bg-gradient-to-br from-purple-100 to-purple-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-purple-200/50 transition-all duration-300">
+                  <AlertTriangle className="text-purple-600 group-hover:scale-110 transition-transform duration-300" size={28} />
+                </div>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-purple-600 transition-colors duration-300">Empréstimo Consignado</h4>
               </div>
-              <p className="text-gray-600 text-sm">
-                Cancelamento de empréstimos não solicitados, revisão de taxas
-                abusivas e recuperação de valores descontados indevidamente.
+              <p className="text-gray-700 leading-relaxed font-medium">
+                Cancelamento de empréstimos não solicitados, revisão de taxas abusivas e recuperação de valores descontados indevidamente.
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-pink-500">
-              <div className="flex items-center mb-4">
-                <DollarSign className="text-pink-500 mr-3" size={24} />
-                <h4 className="font-semibold text-gray-800">
-                  Cartão de Crédito
-                </h4>
+            {/* Card 6 - Cartão de Crédito */}
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group" style={{ animationDelay: "0.6s" }}>
+              <div className="flex items-center mb-6">
+                <div className="bg-gradient-to-br from-pink-100 to-pink-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-pink-200/50 transition-all duration-300">
+                  <DollarSign className="text-pink-600 group-hover:scale-110 transition-transform duration-300" size={28} />
+                </div>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-pink-600 transition-colors duration-300">Cartão de Crédito</h4>
               </div>
-              <p className="text-gray-600 text-sm">
-                Contestação de anuidades indevidas, seguros não contratados,
-                saques não realizados e compras não reconhecidas.
+              <p className="text-gray-700 leading-relaxed font-medium">
+                Contestação de anuidades indevidas, seguros não contratados, saques não realizados e compras não reconhecidas.
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-indigo-500">
-              <div className="flex items-center mb-4">
-                <FileText className="text-indigo-500 mr-3" size={24} />
-                <h4 className="font-semibold text-gray-800">
-                  Financiamento Veicular
-                </h4>
+            {/* Card 7 - Financiamento Veicular */}
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group" style={{ animationDelay: "0.7s" }}>
+              <div className="flex items-center mb-6">
+                <div className="bg-gradient-to-br from-indigo-100 to-indigo-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-indigo-200/50 transition-all duration-300">
+                  <FileText className="text-indigo-600 group-hover:scale-110 transition-transform duration-300" size={28} />
+                </div>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-indigo-600 transition-colors duration-300">Financiamento Veicular</h4>
               </div>
-              <p className="text-gray-600 text-sm">
-                Revisão de contratos de financiamento, contestação de seguros
-                obrigatórios e taxas abusivas em financiamentos.
+              <p className="text-gray-700 leading-relaxed font-medium">
+                Revisão de contratos de financiamento, contestação de seguros obrigatórios e taxas abusivas em financiamentos.
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-teal-500">
-              <div className="flex items-center mb-4">
-                <CheckCircle className="text-teal-500 mr-3" size={24} />
-                <h4 className="font-semibold text-gray-800">Conta Corrente</h4>
+            {/* Card 8 - Conta Corrente */}
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group" style={{ animationDelay: "0.8s" }}>
+              <div className="flex items-center mb-6">
+                <div className="bg-gradient-to-br from-teal-100 to-teal-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-teal-200/50 transition-all duration-300">
+                  <CheckCircle className="text-teal-600 group-hover:scale-110 transition-transform duration-300" size={28} />
+                </div>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-teal-600 transition-colors duration-300">Conta Corrente</h4>
               </div>
-              <p className="text-gray-600 text-sm">
-                Contestação de tarifas de manutenção abusivas, pacote de
-                serviços não solicitados e taxas de cheque especial.
+              <p className="text-gray-700 leading-relaxed font-medium">
+                Contestação de tarifas de manutenção abusivas, pacote de serviços não solicitados e taxas de cheque especial.
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-yellow-500">
-              <div className="flex items-center mb-4">
-                <AlertTriangle className="text-yellow-600 mr-3" size={24} />
-                <h4 className="font-semibold text-gray-800">
-                  Crédito Consignado
-                </h4>
+            {/* Card 9 - Crédito Consignado */}
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 elevated-card premium-border card-hover group" style={{ animationDelay: "0.9s" }}>
+              <div className="flex items-center mb-6">
+                <div className="bg-gradient-to-br from-yellow-100 to-yellow-200 p-3 rounded-xl group-hover:shadow-lg group-hover:shadow-yellow-200/50 transition-all duration-300">
+                  <AlertTriangle className="text-yellow-600 group-hover:scale-110 transition-transform duration-300" size={28} />
+                </div>
+                <h4 className="font-bold text-gray-800 text-lg ml-4 group-hover:text-yellow-600 transition-colors duration-300">Crédito Consignado</h4>
               </div>
-              <p className="text-gray-600 text-sm">
-                Reversão de descontos não autorizados, renegociação de contratos
-                prejudiciais e cancelamento de operações fraudulentas.
+              <p className="text-gray-700 leading-relaxed font-medium">
+                Reversão de descontos não autorizados, renegociação de contratos prejudiciais e cancelamento de operações fraudulentas.
               </p>
             </div>
           </div>
         </div>
 
         {/* How We Work */}
-        <div className="bg-white rounded-xl p-8 lg:p-12 mb-16">
+        <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 lg:p-12 mb-20 shadow-xl border border-gray-200/50 elevated-card">
           <h3 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-8 text-center">
-            Como Trabalhamos Para Você
+            <span className="bg-gradient-to-r from-lawfirm-gold-600 via-lawfirm-gold-500 to-lawfirm-gold-600 bg-clip-text text-transparent">
+              Como Trabalhamos Para Você
+            </span>
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
+            <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-lawfirm-gold-50 to-white hover:shadow-lg transition-all duration-300">
               <div className="bg-lawfirm-gold-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-lawfirm-gold-600">
-                  1
-                </span>
+                <span className="text-2xl font-bold text-lawfirm-gold-600">1</span>
               </div>
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">
-                Análise Gratuita
-              </h4>
-              <p className="text-gray-600">
-                Analisamos seus contratos e extratos bancários sem custo para
-                identificar irregularidades e possíveis recuperações.
+              <h4 className="text-xl font-semibold text-gray-800 mb-3">Análise Gratuita</h4>
+              <p className="text-gray-700 leading-relaxed">
+                Analisamos seus contratos e extratos bancários sem custo para identificar irregularidades e possíveis recuperações.
               </p>
             </div>
 
-            <div className="text-center">
+            <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-lawfirm-gold-50 to-white hover:shadow-lg transition-all duration-300">
               <div className="bg-lawfirm-gold-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-lawfirm-gold-600">
-                  2
-                </span>
+                <span className="text-2xl font-bold text-lawfirm-gold-600">2</span>
               </div>
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">
-                Estratégia Personalizada
-              </h4>
-              <p className="text-gray-600">
-                Desenvolvemos uma estratégia jurídica específica para seu caso,
-                focando em resultados rápidos e eficazes.
+              <h4 className="text-xl font-semibold text-gray-800 mb-3">Estratégia Personalizada</h4>
+              <p className="text-gray-700 leading-relaxed">
+                Desenvolvemos uma estratégia jurídica específica para seu caso, focando em resultados rápidos e eficazes.
               </p>
             </div>
 
-            <div className="text-center">
+            <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-lawfirm-gold-50 to-white hover:shadow-lg transition-all duration-300">
               <div className="bg-lawfirm-gold-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-lawfirm-gold-600">
-                  3
-                </span>
+                <span className="text-2xl font-bold text-lawfirm-gold-600">3</span>
               </div>
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">
-                Recuperação de Valores
-              </h4>
-              <p className="text-gray-600">
-                Executamos a recuperação dos valores pagos indevidamente e
-                garantimos que práticas abusivas sejam interrompidas.
+              <h4 className="text-xl font-semibold text-gray-800 mb-3">Recuperação de Valores</h4>
+              <p className="text-gray-700 leading-relaxed">
+                Executamos a recuperação dos valores pagos indevidamente e garantimos que práticas abusivas sejam interrompidas.
               </p>
             </div>
           </div>
