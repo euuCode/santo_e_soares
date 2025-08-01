@@ -228,34 +228,36 @@ export function BankingInfo() {
           </div>
         </div>
 
-        {/* Success Stats */}
-        <div className="bg-lawfirm-dark-800 rounded-xl p-8 lg:p-12 text-white">
-          <h3 className="text-2xl lg:text-3xl font-bold mb-8 text-center">
-            Compromisso com a justiça!
+        {/* Professional Values */}
+        <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 lg:p-12 shadow-xl border border-gray-200/50 elevated-card">
+          <h3 className="text-2xl lg:text-3xl font-bold mb-8 text-center text-gray-800">
+            <span className="bg-gradient-to-r from-lawfirm-gold-600 via-lawfirm-gold-500 to-lawfirm-gold-600 bg-clip-text text-transparent">
+              Compromisso com a justiça!
+            </span>
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div>
-              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-lawfirm-gold-50 to-lawfirm-gold-100 hover:shadow-lg transition-all duration-300">
+              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-600 mb-2">
                 Atendimento
               </div>
-              <p className="text-gray-300">
+              <p className="text-gray-700 font-medium">
                 Transparente e Humanizado
               </p>
             </div>
 
-            <div>
-              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-lawfirm-gold-50 to-lawfirm-gold-100 hover:shadow-lg transition-all duration-300">
+              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-600 mb-2">
                 Defesa
               </div>
-              <p className="text-gray-300">Dos seus direitos, com excelência</p>
+              <p className="text-gray-700 font-medium">Dos seus direitos, com excelência</p>
             </div>
 
-            <div>
-              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-400 mb-2">
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-lawfirm-gold-50 to-lawfirm-gold-100 hover:shadow-lg transition-all duration-300">
+              <div className="text-3xl lg:text-4xl font-bold text-lawfirm-gold-600 mb-2">
                 100%
               </div>
-              <p className="text-gray-300">Transparência no processo</p>
+              <p className="text-gray-700 font-medium">Transparência no processo</p>
             </div>
           </div>
         </div>
