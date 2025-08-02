@@ -12,7 +12,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
-import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
+import { ProfessionalWhatsAppButton } from "./components/ProfessionalWhatsAppButton";
 import { addSmoothScrollToLinks } from "./lib/smooth-scroll";
 
 const queryClient = new QueryClient();
@@ -51,7 +51,7 @@ const App = () => {
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
-          <FloatingWhatsApp />
+          <ProfessionalWhatsAppButton />
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
