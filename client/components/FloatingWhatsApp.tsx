@@ -4,7 +4,8 @@ import { useState } from "react";
 export function FloatingWhatsApp() {
   const [isHovered, setIsHovered] = useState(false);
 
-  const whatsappUrl = "https://api.whatsapp.com/send/?phone=5531981077321&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20advogado%20especialista%20em%20direito%20banc%C3%A1rio.";
+  const whatsappUrl =
+    "https://api.whatsapp.com/send/?phone=5531981077321&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20advogado%20especialista%20em%20direito%20banc%C3%A1rio.";
 
   const handleWhatsAppClick = () => {
     console.log("Abrindo WhatsApp...");
@@ -22,7 +23,7 @@ export function FloatingWhatsApp() {
         onMouseLeave={() => setIsHovered(false)}
         className="group relative bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-700 to-lawfirm-gold-600 hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-600 hover:to-lawfirm-gold-500 text-white rounded-full p-4 sm:p-5 shadow-2xl hover:shadow-lawfirm-gold-500/30 transition-all duration-500 transform hover:scale-105 border-2 border-lawfirm-gold-400/30 backdrop-blur-sm cursor-pointer inline-flex items-center justify-center touch-manipulation"
         aria-label="Falar no WhatsApp"
-        style={{ touchAction: 'manipulation' }}
+        style={{ touchAction: "manipulation" }}
       >
         {/* Background glow effect */}
         <div className="absolute inset-0 bg-lawfirm-gold-400 rounded-full blur-2xl opacity-40 group-hover:opacity-70 transition-all duration-500"></div>
