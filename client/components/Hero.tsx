@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[90vh] sm:min-h-[85vh] flex items-start sm:items-center justify-center overflow-hidden pt-12 sm:pt-0">
+    <section className="relative min-h-[90vh] sm:min-h-[85vh] flex items-start sm:items-center justify-center overflow-hidden pt-20 sm:pt-0">
       {/* High-Quality Background Image with Dark Overlay */}
       <div className="absolute inset-0 flex flex-col">
         <img
