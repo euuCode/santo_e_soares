@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[75vh] sm:min-h-[85vh] flex items-start sm:items-center justify-center overflow-hidden pt-16 sm:pt-0">
       {/* High-Quality Background Image with Dark Overlay */}
       <div className="absolute inset-0 flex flex-col">
         <img
@@ -32,9 +32,9 @@ export function Hero() {
       </div>
 
       {/* Content with Professional Animations */}
-      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto mt-8 sm:mt-0">
         <div className="fade-in">
-          <h1 className="mb-8 leading-tight relative text-white drop-shadow-lg">
+          <h1 className="mb-6 sm:mb-8 leading-tight relative text-white drop-shadow-lg">
             <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium opacity-90 mb-2">
               Advocacia Especializada em
             </span>
@@ -47,7 +47,7 @@ export function Hero() {
         </div>
 
         <div className="slide-up" style={{ animationDelay: "0.3s" }}>
-          <p className="text-xl sm:text-2xl text-white/95 mb-12 max-w-4xl mx-auto font-light leading-relaxed drop-shadow-lg">
+          <p className="text-xl sm:text-2xl text-white/95 mb-16 sm:mb-12 max-w-4xl mx-auto font-light leading-relaxed drop-shadow-lg">
             Defendemos seus direitos com&nbsp;
             <span className="text-lawfirm-gold-300 font-semibold">
               excelência
