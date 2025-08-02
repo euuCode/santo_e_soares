@@ -16,12 +16,12 @@ export const smoothScrollTo = (elementId: string, offset: number = 80) => {
     if (!start) start = timestamp;
     const progress = timestamp - start;
     const percentage = Math.min(progress / duration, 1);
-    
+
     // Função de easing suave
     const ease = 1 - Math.pow(1 - percentage, 3);
-    
+
     window.scrollTo(0, startPosition + distance * ease);
-    
+
     if (progress < duration) {
       window.requestAnimationFrame(step);
     }
@@ -31,11 +31,11 @@ export const smoothScrollTo = (elementId: string, offset: number = 80) => {
 };
 
 export const addSmoothScrollToLinks = () => {
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
       e.preventDefault();
-      const href = this.getAttribute('href');
-      if (href && href !== '#') {
+      const href = this.getAttribute("href");
+      if (href && href !== "#") {
         const targetId = href.substring(1);
         smoothScrollTo(targetId);
       }

@@ -8,8 +8,9 @@ export function FloatingWhatsApp() {
     e.preventDefault();
     e.stopPropagation();
 
-    const url = "https://api.whatsapp.com/send/?phone=5531981077321&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20advogado%20especialista%20em%20direito%20banc%C3%A1rio.";
-    console.log('Redirecionando para WhatsApp:', url);
+    const url =
+      "https://api.whatsapp.com/send/?phone=5531981077321&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20advogado%20especialista%20em%20direito%20banc%C3%A1rio.";
+    console.log("Redirecionando para WhatsApp:", url);
 
     try {
       // Tenta abrir no WhatsApp
@@ -20,7 +21,7 @@ export function FloatingWhatsApp() {
         window.location.href = url;
       }
     } catch (error) {
-      console.error('Erro ao abrir WhatsApp:', error);
+      console.error("Erro ao abrir WhatsApp:", error);
       // Fallback final
       window.location.href = url;
     }
@@ -64,9 +65,7 @@ export function FloatingWhatsApp() {
             <span className="text-base font-semibold text-lawfirm-gold-200">
               Profissionais Especializados
             </span>
-            <div className="text-xs text-gray-300 mt-1">
-              Direito Bancário
-            </div>
+            <div className="text-xs text-gray-300 mt-1">Direito Bancário</div>
             {/* Arrow */}
             <div className="absolute top-1/2 right-0 transform translate-x-full -translate-y-1/2">
               <div className="w-0 h-0 border-l-10 border-l-lawfirm-dark-900/98 border-t-5 border-t-transparent border-b-5 border-b-transparent"></div>

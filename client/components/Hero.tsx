@@ -77,7 +77,9 @@ export function Hero() {
                 className="hidden sm:block group-hover:rotate-12 transition-transform duration-300"
               />
             </div>
-            <span className="text-sm sm:text-base lg:text-lg font-semibold">Falar com profissionais especializados</span>
+            <span className="text-sm sm:text-base lg:text-lg font-semibold">
+              Falar com profissionais especializados
+            </span>
           </a>
         </div>
       </div>
