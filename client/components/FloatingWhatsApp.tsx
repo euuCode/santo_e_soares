@@ -4,10 +4,26 @@ import { useState } from "react";
 export function FloatingWhatsApp() {
   const [isHovered, setIsHovered] = useState(false);
 
-  const handleWhatsAppClick = () => {
+  const handleWhatsAppClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+
     const url = "https://api.whatsapp.com/send/?phone=5531981077321&text=Olá! Vim pelo site e gostaria de falar com um advogado especialista em direito bancário.";
-    console.log('Redirecionando para:', url);
-    window.open(url, "_blank", "noopener,noreferrer");
+    console.log('Redirecionando para WhatsApp:', url);
+
+    try {
+      // Tenta abrir no WhatsApp
+      const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+
+      // Fallback se window.open falhar
+      if (!newWindow) {
+        window.location.href = url;
+      }
+    } catch (error) {
+      console.error('Erro ao abrir WhatsApp:', error);
+      // Fallback final
+      window.location.href = url;
+    }
   };
 
   return (
