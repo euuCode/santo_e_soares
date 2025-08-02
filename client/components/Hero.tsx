@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[90vh] sm:min-h-[85vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[90vh] sm:min-h-[85vh] flex items-start sm:items-center justify-center overflow-hidden pt-12 sm:pt-0">
       {/* High-Quality Background Image with Dark Overlay */}
       <div className="absolute inset-0 flex flex-col">
         <img
@@ -37,10 +37,10 @@ export function Hero() {
           <h1 className="mb-8 sm:mb-10 leading-tight relative text-white drop-shadow-lg">
             {/* Mobile: Layout vertical compacto e elegante */}
             <div className="flex flex-col items-center space-y-2 sm:space-y-3">
-              <span className="text-sm sm:text-xl md:text-2xl lg:text-3xl font-light opacity-90 tracking-[0.2em] uppercase">
+              <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light opacity-90 tracking-[0.2em] uppercase">
                 Advocacia Especializada em
               </span>
-              <span className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-lawfirm-gold-300 font-black leading-none tracking-tight text-center px-2 sm:px-0">
+              <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-lawfirm-gold-300 font-black leading-none tracking-tight text-center px-2 sm:px-0">
                 Processos contra Bancos
               </span>
             </div>
