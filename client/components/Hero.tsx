@@ -34,9 +34,11 @@ export function Hero() {
       {/* Content with Professional Animations */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <div className="fade-in">
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-8 leading-tight relative text-white drop-shadow-lg">
-            <span className="block">Advocacia Especializada em</span>
-            <span className="block mt-4 text-lawfirm-gold-300 font-extrabold">
+          <h1 className="mb-8 leading-tight relative text-white drop-shadow-lg">
+            <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium opacity-90 mb-2">
+              Advocacia Especializada em
+            </span>
+            <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-lawfirm-gold-300 font-extrabold mt-3">
               Processos contra Bancos
             </span>
             {/* Elegant underline */}
@@ -63,15 +65,19 @@ export function Hero() {
             href="https://api.whatsapp.com/send/?phone=5531981077321&text=Olá! Vim pelo site e gostaria de falar com um advogado especialista em direito bancário."
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center space-x-4 bg-gradient-to-r from-lawfirm-gold-600 to-lawfirm-gold-700 text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:from-lawfirm-gold-500 hover:to-lawfirm-gold-600 transition-all duration-300 shadow-xl hover:shadow-2xl cursor-pointer hover:scale-105"
+            className="group inline-flex items-center space-x-3 sm:space-x-4 bg-gradient-to-r from-lawfirm-gold-600 to-lawfirm-gold-700 text-white px-6 py-4 sm:px-8 sm:py-5 lg:px-10 lg:py-5 rounded-xl sm:rounded-2xl font-semibold text-base sm:text-lg hover:from-lawfirm-gold-500 hover:to-lawfirm-gold-600 transition-all duration-300 shadow-xl hover:shadow-2xl cursor-pointer hover:scale-105"
           >
-            <div className="bg-white/20 p-2 rounded-xl group-hover:bg-white/30 transition-all duration-300">
+            <div className="bg-white/20 p-2 rounded-lg sm:rounded-xl group-hover:bg-white/30 transition-all duration-300">
+              <MessageCircle
+                size={20}
+                className="sm:hidden group-hover:rotate-12 transition-transform duration-300"
+              />
               <MessageCircle
                 size={24}
-                className="group-hover:rotate-12 transition-transform duration-300"
+                className="hidden sm:block group-hover:rotate-12 transition-transform duration-300"
               />
             </div>
-            <span>Falar com profissionais especializados</span>
+            <span className="text-sm sm:text-base lg:text-lg font-semibold">Falar com profissionais especializados</span>
           </a>
         </div>
       </div>
