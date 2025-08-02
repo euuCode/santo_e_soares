@@ -2,7 +2,11 @@ import { MessageCircle } from "lucide-react";
 
 export function Hero() {
   return (
+<<<<<<< HEAD
     <section className="relative min-h-[75vh] sm:min-h-[85vh] flex items-start sm:items-center justify-center overflow-hidden pt-16 sm:pt-0">
+=======
+    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+>>>>>>> 2741fe8e513998eb79a0377351214a1278de3b71
       {/* High-Quality Background Image with Dark Overlay */}
       <div className="absolute inset-0 flex flex-col">
         <img
@@ -32,6 +36,7 @@ export function Hero() {
       </div>
 
       {/* Content with Professional Animations */}
+<<<<<<< HEAD
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto mt-8 sm:mt-0">
         <div className="fade-in">
           <h1 className="mb-6 sm:mb-8 leading-tight relative text-white drop-shadow-lg">
@@ -39,6 +44,13 @@ export function Hero() {
               Advocacia Especializada em
             </span>
             <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-lawfirm-gold-300 font-extrabold mt-3">
+=======
+      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div className="fade-in">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-8 leading-tight relative text-white drop-shadow-lg">
+            <span className="block">Advocacia Especializada em</span>
+            <span className="block mt-4 text-lawfirm-gold-300 font-extrabold">
+>>>>>>> 2741fe8e513998eb79a0377351214a1278de3b71
               Processos contra Bancos
             </span>
             {/* Elegant underline */}
@@ -47,7 +59,11 @@ export function Hero() {
         </div>
 
         <div className="slide-up" style={{ animationDelay: "0.3s" }}>
+<<<<<<< HEAD
           <p className="text-xl sm:text-2xl text-white/95 mb-16 sm:mb-12 max-w-4xl mx-auto font-light leading-relaxed drop-shadow-lg">
+=======
+          <p className="text-xl sm:text-2xl text-white/95 mb-12 max-w-4xl mx-auto font-light leading-relaxed drop-shadow-lg">
+>>>>>>> 2741fe8e513998eb79a0377351214a1278de3b71
             Defendemos seus direitos com&nbsp;
             <span className="text-lawfirm-gold-300 font-semibold">
               excelência
@@ -65,6 +81,7 @@ export function Hero() {
             href="https://api.whatsapp.com/send/?phone=5531981077321&text=Olá! Vim pelo site e gostaria de falar com um advogado especialista em direito bancário."
             target="_blank"
             rel="noopener noreferrer"
+<<<<<<< HEAD
             className="group inline-flex items-center space-x-3 sm:space-x-4 bg-gradient-to-r from-lawfirm-gold-600 to-lawfirm-gold-700 text-white px-6 py-4 sm:px-8 sm:py-5 lg:px-10 lg:py-5 rounded-xl sm:rounded-2xl font-semibold text-base sm:text-lg hover:from-lawfirm-gold-500 hover:to-lawfirm-gold-600 transition-all duration-300 shadow-xl hover:shadow-2xl cursor-pointer hover:scale-105"
           >
             <div className="bg-white/20 p-2 rounded-lg sm:rounded-xl group-hover:bg-white/30 transition-all duration-300">
@@ -72,14 +89,23 @@ export function Hero() {
                 size={20}
                 className="sm:hidden group-hover:rotate-12 transition-transform duration-300"
               />
+=======
+            className="group inline-flex items-center space-x-4 bg-gradient-to-r from-lawfirm-gold-600 to-lawfirm-gold-700 text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:from-lawfirm-gold-500 hover:to-lawfirm-gold-600 transition-all duration-300 shadow-xl hover:shadow-2xl cursor-pointer hover:scale-105"
+          >
+            <div className="bg-white/20 p-2 rounded-xl group-hover:bg-white/30 transition-all duration-300">
+>>>>>>> 2741fe8e513998eb79a0377351214a1278de3b71
               <MessageCircle
                 size={24}
-                className="hidden sm:block group-hover:rotate-12 transition-transform duration-300"
+                className="group-hover:rotate-12 transition-transform duration-300"
               />
             </div>
+<<<<<<< HEAD
             <span className="text-sm sm:text-base lg:text-lg font-semibold">
               Falar com profissionais especializados
             </span>
+=======
+            <span>Fale com um advogado especialista</span>
+>>>>>>> 2741fe8e513998eb79a0377351214a1278de3b71
           </a>
         </div>
       </div>

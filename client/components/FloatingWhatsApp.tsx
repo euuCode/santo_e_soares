@@ -33,7 +33,11 @@ export function FloatingWhatsApp() {
         onClick={handleWhatsAppClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
+<<<<<<< HEAD
         className="group relative bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-700 to-lawfirm-gold-600 hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-600 hover:to-lawfirm-gold-500 text-white rounded-full p-5 shadow-2xl hover:shadow-lawfirm-gold-500/30 transition-all duration-500 transform hover:scale-105 border-2 border-lawfirm-gold-400/30 backdrop-blur-sm cursor-pointer"
+=======
+        className="group relative bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-700 to-lawfirm-gold-600 hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-600 hover:to-lawfirm-gold-500 text-white rounded-full p-5 shadow-2xl hover:shadow-lawfirm-gold-500/30 transition-all duration-500 transform hover:scale-105 border-2 border-lawfirm-gold-400/30 backdrop-blur-sm"
+>>>>>>> 2741fe8e513998eb79a0377351214a1278de3b71
         aria-label="Falar no WhatsApp"
       >
         {/* Background glow effect */}
@@ -42,10 +46,14 @@ export function FloatingWhatsApp() {
 
         {/* WhatsApp Icon */}
         <div className="relative z-10">
+<<<<<<< HEAD
           <MessageCircle
             size={32}
             className="drop-shadow-lg group-hover:rotate-12 transition-transform duration-500"
           />
+=======
+          <MessageCircle size={32} className="drop-shadow-lg group-hover:rotate-12 transition-transform duration-500" />
+>>>>>>> 2741fe8e513998eb79a0377351214a1278de3b71
         </div>
 
         {/* Notification dot */}
@@ -63,9 +71,17 @@ export function FloatingWhatsApp() {
         >
           <div className="bg-gradient-to-r from-lawfirm-dark-900/98 to-lawfirm-dark-800/98 backdrop-blur-md text-white px-6 py-3 rounded-xl shadow-2xl border-2 border-lawfirm-gold-400/30 whitespace-nowrap">
             <span className="text-base font-semibold text-lawfirm-gold-200">
+<<<<<<< HEAD
               Profissionais Especializados
             </span>
             <div className="text-xs text-gray-300 mt-1">Direito Bancário</div>
+=======
+              Consultoria Especializada
+            </span>
+            <div className="text-xs text-gray-300 mt-1">
+              Direito Bancário Premium
+            </div>
+>>>>>>> 2741fe8e513998eb79a0377351214a1278de3b71
             {/* Arrow */}
             <div className="absolute top-1/2 right-0 transform translate-x-full -translate-y-1/2">
               <div className="w-0 h-0 border-l-10 border-l-lawfirm-dark-900/98 border-t-5 border-t-transparent border-b-5 border-b-transparent"></div>
