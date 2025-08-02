@@ -82,10 +82,17 @@ export function Hero() {
                 />
               </div>
               <span className="font-black tracking-wide text-center">
-                <span className="block sm:hidden">Consulta Especializada</span>
+                <span className="block sm:hidden">Consulta Gratuita</span>
                 <span className="hidden sm:block">Falar com profissionais especializados</span>
               </span>
             </a>
+            
+            {/* Mobile: Informação adicional */}
+            <div className="mt-4 sm:hidden">
+              <p className="text-xs text-white/70 text-center px-4">
+                Resposta rápida • Sem compromisso • 100% Gratuito
+              </p>
+            </div>
           </div>
         </div>
       </div>

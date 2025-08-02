@@ -5,20 +5,35 @@ export function FloatingWhatsApp() {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleWhatsAppClick = (e: React.MouseEvent) => {
-    // O href do link já vai funcionar, apenas logamos para debug
-    console.log("Clique no WhatsApp detectado");
+    e.preventDefault();
+    e.stopPropagation();
+
+    const url =
+      "https://api.whatsapp.com/send/?phone=5531981077321&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20advogado%20especialista%20em%20direito%20banc%C3%A1rio.";
+    console.log("Redirecionando para WhatsApp:", url);
+
+    try {
+      // Tenta abrir no WhatsApp
+      const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+
+      // Fallback se window.open falhar
+      if (!newWindow) {
+        window.location.href = url;
+      }
+    } catch (error) {
+      console.error("Erro ao abrir WhatsApp:", error);
+      // Fallback final
+      window.location.href = url;
+    }
   };
 
   return (
     <div className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-50">
-      <a
-        href="https://api.whatsapp.com/send/?phone=5531981077321&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20advogado%20especialista%20em%20direito%20banc%C3%A1rio."
-        target="_blank"
-        rel="noopener noreferrer"
+      <button
         onClick={handleWhatsAppClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        className="group relative bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-700 to-lawfirm-gold-600 hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-600 hover:to-lawfirm-gold-500 text-white rounded-full p-4 sm:p-5 shadow-2xl hover:shadow-lawfirm-gold-500/30 transition-all duration-500 transform hover:scale-105 border-2 border-lawfirm-gold-400/30 backdrop-blur-sm cursor-pointer inline-block"
+        className="group relative bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-700 to-lawfirm-gold-600 hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-600 hover:to-lawfirm-gold-500 text-white rounded-full p-4 sm:p-5 shadow-2xl hover:shadow-lawfirm-gold-500/30 transition-all duration-500 transform hover:scale-105 border-2 border-lawfirm-gold-400/30 backdrop-blur-sm cursor-pointer"
         aria-label="Falar no WhatsApp"
       >
         {/* Background glow effect */}
@@ -61,7 +76,7 @@ export function FloatingWhatsApp() {
             </div>
           </div>
         </div>
-      </a>
+      </button>
 
       {/* Ripple effect */}
       <div className="absolute inset-0 rounded-full border-2 border-lawfirm-gold-400/40 animate-ping"></div>
