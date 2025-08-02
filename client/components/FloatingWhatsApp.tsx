@@ -5,10 +5,9 @@ export function FloatingWhatsApp() {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleWhatsAppClick = () => {
-    window.open(
-      "https://api.whatsapp.com/send/?phone=5531981077321&text=Olá! Vim pelo site e gostaria de falar com um advogado especialista em direito bancário.",
-      "_blank",
-    );
+    const url = "https://api.whatsapp.com/send/?phone=5531981077321&text=Olá! Vim pelo site e gostaria de falar com um advogado especialista em direito bancário.";
+    console.log('Redirecionando para:', url);
+    window.open(url, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -17,7 +16,7 @@ export function FloatingWhatsApp() {
         onClick={handleWhatsAppClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        className="group relative bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-700 to-lawfirm-gold-600 hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-600 hover:to-lawfirm-gold-500 text-white rounded-full p-5 shadow-2xl hover:shadow-lawfirm-gold-500/30 transition-all duration-500 transform hover:scale-105 border-2 border-lawfirm-gold-400/30 backdrop-blur-sm"
+        className="group relative bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-700 to-lawfirm-gold-600 hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-600 hover:to-lawfirm-gold-500 text-white rounded-full p-5 shadow-2xl hover:shadow-lawfirm-gold-500/30 transition-all duration-500 transform hover:scale-105 border-2 border-lawfirm-gold-400/30 backdrop-blur-sm cursor-pointer"
         aria-label="Falar no WhatsApp"
       >
         {/* Background glow effect */}
