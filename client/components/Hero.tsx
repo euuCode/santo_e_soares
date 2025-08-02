@@ -71,7 +71,7 @@ export function Hero() {
                 className="group-hover:rotate-12 transition-transform duration-300"
               />
             </div>
-            <span>Fale com um advogado especialista</span>
+            <span>Falar com profissionais especializados</span>
           </a>
         </div>
       </div>
