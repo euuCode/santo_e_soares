@@ -47,10 +47,10 @@ export function FloatingWhatsApp() {
         >
           <div className="bg-gradient-to-r from-lawfirm-dark-900/98 to-lawfirm-dark-800/98 backdrop-blur-md text-white px-6 py-3 rounded-xl shadow-2xl border-2 border-lawfirm-gold-400/30 whitespace-nowrap">
             <span className="text-base font-semibold text-lawfirm-gold-200">
-              Consultoria Especializada
+              Profissionais Especializados
             </span>
             <div className="text-xs text-gray-300 mt-1">
-              Direito Bancário Premium
+              Direito Bancário
             </div>
             {/* Arrow */}
             <div className="absolute top-1/2 right-0 transform translate-x-full -translate-y-1/2">
