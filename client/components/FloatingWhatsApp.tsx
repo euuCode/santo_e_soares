@@ -4,44 +4,32 @@ import { useState } from "react";
 export function FloatingWhatsApp() {
   const [isHovered, setIsHovered] = useState(false);
 
-  const handleWhatsAppClick = (e: React.MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
+  const whatsappUrl = "https://api.whatsapp.com/send/?phone=5531981077321&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20advogado%20especialista%20em%20direito%20banc%C3%A1rio.";
 
-    const url =
-      "https://api.whatsapp.com/send/?phone=5531981077321&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20advogado%20especialista%20em%20direito%20banc%C3%A1rio.";
-    console.log("Redirecionando para WhatsApp:", url);
-
-    try {
-      // Tenta abrir no WhatsApp
-      const newWindow = window.open(url, "_blank", "noopener,noreferrer");
-
-      // Fallback se window.open falhar
-      if (!newWindow) {
-        window.location.href = url;
-      }
-    } catch (error) {
-      console.error("Erro ao abrir WhatsApp:", error);
-      // Fallback final
-      window.location.href = url;
-    }
+  const handleWhatsAppClick = () => {
+    console.log("Abrindo WhatsApp...");
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
   };
 
   return (
     <div className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-50">
-      <button
+      <a
+        href={whatsappUrl}
+        target="_blank"
+        rel="noopener noreferrer"
         onClick={handleWhatsAppClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        className="group relative bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-700 to-lawfirm-gold-600 hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-600 hover:to-lawfirm-gold-500 text-white rounded-full p-4 sm:p-5 shadow-2xl hover:shadow-lawfirm-gold-500/30 transition-all duration-500 transform hover:scale-105 border-2 border-lawfirm-gold-400/30 backdrop-blur-sm cursor-pointer"
+        className="group relative bg-gradient-to-br from-lawfirm-gold-600 via-lawfirm-gold-700 to-lawfirm-gold-600 hover:from-lawfirm-gold-500 hover:via-lawfirm-gold-600 hover:to-lawfirm-gold-500 text-white rounded-full p-4 sm:p-5 shadow-2xl hover:shadow-lawfirm-gold-500/30 transition-all duration-500 transform hover:scale-105 border-2 border-lawfirm-gold-400/30 backdrop-blur-sm cursor-pointer inline-flex items-center justify-center touch-manipulation"
         aria-label="Falar no WhatsApp"
+        style={{ touchAction: 'manipulation' }}
       >
         {/* Background glow effect */}
         <div className="absolute inset-0 bg-lawfirm-gold-400 rounded-full blur-2xl opacity-40 group-hover:opacity-70 transition-all duration-500"></div>
         <div className="absolute inset-0 bg-gradient-to-br from-lawfirm-gold-300/20 to-lawfirm-gold-600/20 rounded-full"></div>
 
         {/* WhatsApp Icon */}
-        <div className="relative z-10">
+        <div className="relative z-10 pointer-events-none">
           <MessageCircle
             size={28}
             className="sm:hidden drop-shadow-lg group-hover:rotate-12 transition-transform duration-500"
@@ -53,7 +41,7 @@ export function FloatingWhatsApp() {
         </div>
 
         {/* Notification dot */}
-        <div className="absolute -top-1.5 -right-1.5 sm:-top-2 sm:-right-2 w-4 h-4 sm:w-5 sm:h-5 bg-gradient-to-br from-lawfirm-gold-300 to-lawfirm-gold-500 rounded-full flex items-center justify-center border-2 border-white shadow-lg">
+        <div className="absolute -top-1.5 -right-1.5 sm:-top-2 sm:-right-2 w-4 h-4 sm:w-5 sm:h-5 bg-gradient-to-br from-lawfirm-gold-300 to-lawfirm-gold-500 rounded-full flex items-center justify-center border-2 border-white shadow-lg pointer-events-none">
           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-white rounded-full animate-pulse"></div>
         </div>
 
@@ -76,7 +64,7 @@ export function FloatingWhatsApp() {
             </div>
           </div>
         </div>
-      </button>
+      </a>
 
       {/* Ripple effect */}
       <div className="absolute inset-0 rounded-full border-2 border-lawfirm-gold-400/40 animate-ping"></div>
